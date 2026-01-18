@@ -1,0 +1,171 @@
+- área: Gobernanza e innovación
+  etq: área-gob
+  objetivos:
+
+  - objetivo: Definir la política general de la IAG en procesos administrativos
+    etq: obj-política
+    acciones:
+
+    - acción: Definición del marco de gobernanza y de las políticas aplicables a la utilización de la IAG en la UJI en los procesos de gestión.
+      breve: Marco de gobernanza y políticas IA en gestión
+      responsables:
+      - Comité gobernanza IA
+      - OIATI
+      semestres: [1, 2]
+
+  - objetivo: Crear un "embudo de innovación" formal.
+    etq: obj-innovación
+    acciones:
+
+    - acción: "Definir la metodología de Priorización: Implementar el grupo de detección de necesidades con representantes de los usuarios para filtrar qué proyectos pasan de \"Uso Personal\" a desarrollo corporativo."
+      breve: Metodología de priorización
+      responsables:
+      - Comité gobernanza IA
+      - OIATI
+      semestres: [1, 2]
+
+    - acción: "Formalizar la \"Capa de Innovación\": Establecer un equipo o asignación de recursos dedicados exclusivamente a pruebas de concepto (PoC) y pilotos, separado de la presión operativa del mantenimiento diario."
+      breve: Capa de innovación
+      responsables:
+      - Comité Gobernanza
+      - OIATI
+      - UADTI
+      semestres: [1, 2, 3, 4]
+
+- área: Datos e Infraestructura
+  etq: área-datos
+  objetivos:
+
+  - objetivo: Mejorar la calidad y disponibilidad de los datos.
+    etq: obj-calidad
+    acciones:
+
+    - acción: Definición y despliegue de la infraestructura y canales para el consumo programático de datos (Oracle Analytics, API de datos abiertos con identificación...) y del procedimiento para la solicitud de datos por parte de los usuarios.
+      breve: Infraestructura y canales de datos
+      responsables:
+      - UADTI
+      - Comité de gobernanza del dato
+      semestres: [1, 2]
+
+    - acción: Definición y divulgación de la "Guía de estilo del dato" (normas de codificación, anonimización, lengua).
+      breve: Guía de estilo del dato
+      responsables:
+      - UADTI
+      - Comité de gobernanza del dato
+      semestres: [1]
+
+    - acción: "Limpieza proactiva: Ejecutar scripts de IA supervisados por humanos para detectar y corregir inconsistencias en datos históricos (fechas, mayúsculas/minúsculas)."
+      breve: Limpieza proactiva de datos
+      responsables:
+      - Servicios
+      - UADTI
+      semestres: [2, 3, 4]
+
+    - acción: Enriquecimiento de documentación existente (memorias o documentos, tablas y procedimientos PL/SQL existentes, creando el corpus de conocimiento necesario para futuros agentes.
+      breve: Enriquecimiento de documentación
+      responsables:
+      - UADTI
+      semestres: [2, 3, 4]
+
+  - objetivo: Definir la infraestructura tecnológica adecuada para los distintos usos
+    etq: obj-infraestructura
+    acciones:
+
+    - acción: Definición de arquitectura para "Uso en Círculo Reducido". Crear entornos seguros donde los usuarios avanzados puedan ejecutar scripts sin comprometer la seguridad institucional.
+      breve: Arquitectura para uso en círculo reducido
+      responsables:
+      - UADTI
+      - Comité de gobernanza del dato
+      semestres: [1, 2]
+
+    - acción: Realización de un proyecto piloto con Vertex AI (Google) para desplegar un agente informador institucional controlado, que permita evaluar la infraestructura de Google.
+      breve: Proyecto piloto con Vertex AI
+      responsables:
+      - Grupo de innovación
+      - UADTI
+      semestres: [2, 3]
+
+    - acción: Definición de los estándares tecnológicos para el despliegue de las herramientas de IA mediante desarrollos propios.
+      breve: Estándares tecnológicos para despliegue de IA
+      responsables:
+      - UADTI
+      semestres: [1]
+
+- área: Modernización del desarrollo de software.
+  etq: área-software
+  objetivos:
+
+  - objetivo: Generalizar el desarrollo asistido.
+    etq: obj-desarrollo
+    acciones:
+
+    - acción: Selección y adquisición de la tecnología de asistentes de programación con IA institucionales.
+      breve: Selección de tecnología de asistentes de programación
+      responsables:
+      - SCAG
+      - UADTI
+      semestres: [1, 2]
+
+    - acción: Creación del repositorio de documentos de ficheros maestro que alimentarán a los agentes de desarrollo (tecnología, reglas de procedimiento, reglas de seguridad...).
+      breve: Repositorio de documentos maestro
+      responsables:
+      - UADTI
+      semestres: [2, 3]
+
+    - acción: Definición de protocolos de "Sesiones de Desarrollo" para que los logs/chats con el agente de IA se guarden como un artefacto más del proyecto para facilitar la depuración futura.
+      breve: Protocolos de sesiones de desarrollo
+      responsables:
+      - UADTI
+      semestres: [2, 3, 4]
+
+  - objetivo: Migrar las tecnologías obsoletas para adaptarlas al actual marco de desarrollo de la UJI.
+    etq: obj-migración
+    acciones:
+
+    - acción: Migración de tecnologías obsoletas (como el forms de Oracle) utilizando agentes para analizar la lógica de negocio en y desarrollar aplicaciones ajustadas al _framework_ de la UJI (Java/JS + Endpoints), desacoplando la lógica de la presentación.
+      breve: Migración de tecnologías obsoletas
+      responsables:
+      - UADTI
+      semestres: [2]
+
+- área: Formación y cambio cultural por perfiles.
+  etq: área-formación
+  objetivos:
+
+  - objetivo: Ofrecer la formación adecuada y favorecer el cambio cultural para los usuarios finales.
+    etq: obj-formación
+    acciones:
+
+    - acción: Acciones de formación en "copilotos” y en validación" para favorecer el cambio cultural, cambiando el foco desde "cómo usar la herramienta" a "cómo validar lo que hace la IA" y a la necesidad de asumir la responsabilidad del resultado.
+      breve: Formación de usuarios finales
+      responsables:
+      - UFIE
+      - Servicio de Recursos Humanos
+      semestres: [1, 2, 3, 4]
+
+    - acción: Creación de un repositorio institucional de prompts efectivos para tareas administrativas comunes.
+      breve: Repositorio institucional de prompts administrativos
+      responsables:
+      - Grupo innovación
+      semestres: [2, 3, 4]
+
+  - objetivo: Ofrecer la formación adecuada para analistas de datos.
+    etq: obj-analistas
+    acciones:
+
+    - acción: Formación o taller sobre desarrollo de scripts de procesamiento y su reutilización.
+      breve: Formación analistas de datos
+      responsables:
+      - UFIE
+      semestres: [2, 3]
+
+  - objetivo: Formación para los desarrolladores.
+    etq: obj-desarrolladores
+    acciones:
+
+    - acción: Formación en desarrollo mediante agentes, tecnologías seleccionadas para el desarrollo de agentes IA, gestión de costes de tokens, etcétera.
+      breve: Formación desarrolladores
+      responsables:
+      - UADTI
+      - UFIE
+      semestres: [1, 2]
