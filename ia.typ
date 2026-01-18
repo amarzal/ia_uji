@@ -12,35 +12,42 @@
 
 = Introducción <sec:intro>
 
-La inteligencia artificial generativa se está convirtiendo en una tecnología llamada a transformar muchos ámbitos de actividad. Su integración en la gestión administrativa va a reducir las tareas repetitivas y aumentar la eficiencia operativa, en una integración entre tecnología y talento humano que permitirá ofrecer respuestas y soluciones más rápidas y adecuadas.
+La Inteligencia Artificial (IA) y, en particular, la IA Generativa (IAG) va a transformar la gestión administrativa, reduciendo tareas repetitivas y aumentando la eficiencia en una integración entre tecnología y talento humano.
 
-En el ámbito del desarrollo de aplicaciones informáticas el cambio está siendo especialmente disruptivo y temprano.
+En el desarrollo de _software_ el cambio está siendo especialmente disruptivo, como ilustra este tweet de Andrej Karpathy (26/12/2026)#footnote[
+    *Igor Babushkin* `@ibab` 26 de diciembre (de 2025): Opus 4.5 es muy bueno.
 
-Citamos a Andrej Karpathy en un tweet de 26/12/2026:
+    *Andrej Karpathy* `@karpathy` 26 de diciembre (de 2025): Es muy bueno. La gente que no se ha mantenido informada incluso en los últimos 30 días ya tiene una visión obsoleta sobre este asunto.]:
 
-#align(center, image("assets/media/image2.png", width: 5in, alt: "Hola"))
+#align(center, image(
+    "assets/media/image2.png",
+    width: 5in,
+    alt: "Igor Babushkin: Opus 4.5 es muy bueno. – Andrew Karpathy: Es muy bueno. La gente que no se ha mantenido informada incluso en los últimos 30 días ya tiene una visión obsoleta sobre este asunto.",
+))
 
-Este tweet da una idea del ritmo al que se producen cambios y del carácter cualitativo de estos.
+El cambio es tan rápido que genera resistencia incluso entre profesionales que ya usan IA, unida al temor de que sus habilidades pierdan valor. El desarrollo de _software_ es el campo paradigmático de este cambio acelerado y la reacción. Es el campo donde los efectos están siendo más evidentes y dónde es más patente el cuestionamiento del conjunto de habilidades que hasta ahora han definido a los profesionales de un sector#footnote[
+    *Andrey Petrov* `@shazow` 27 de diciembre (de 2025): ¿Crees que estas habilidades son sustanciales y transferibles al futuro? ¿Tiene alguien que empezó hace 1-2 años una ventaja sobre alguien que empezó hace un mes? ¿Serán útiles las lecciones de hoy dentro de 1-2 años? Siento que el factor de \"perderse algo\" sigue siendo bastante bajo.
 
-El cambio es tan rápido y de tal calado que hay una actitud refractaria, incluso entre profesionales que han utilizado la IA en su quehacer diario. La resistencia a la adopción del cambio se une al temor de que las habilidades profesionales dejen de tener valor en un período de tiempo corto. El desarrollo de software es el campo paradigmático de este tipo de reacción porque es ahí donde los resultados están siendo más notables y dónde es más evidente el cuestionamiento del conjunto de habilidades que hasta ahora han definido a los profesionales del sector.
+    *Andrej Karpathy* `@karpathy` 27 de diciembre (de 2025): Muy buenas preguntas, en mi opinión, los desarrolladores experimentados tienen una ventaja real pero solo si progresan rápidamente a través de su ciclo de duelo y se adaptan, ahora y en adelante. Rechazar categóricamente o ignorar la nueva capa sería un error.
+]:
 
-#align(center, image("assets/media/image1.png", width: 5in))
+#align(center, image(
+    "assets/media/image1.png",
+    width: 5in,
+    alt: "Andrey Petrov: Do you feel these skills are substantial and transferrable to the future? Does someone who started 1-2 years ago have an advantage over someone who started a month ago? Will lessons today be useful 1-2 years ago? I feel like the \"missing out\" factor is still quite low. — Andrej Karpathy: Very good questions imo experienced devs have a real advantage but only if they rapidly progress through their grief cycle and adapt, now and onwards. Categorically rejecting or ignoring the new layer would be a mistake.",
+))
 
-El paso de la IA como autocompletador inteligente a agente capaz de desarrollar aplicaciones completas a partir de descripciones en lenguaje natural empezó con Claude Code, que facilitó la interacción con un agente especializado en generación de código, pero no limitado a esta función. Siguieron la senda marcada por Anthropic tanto OpenAI con Codex CLI como Google con Gemini CLI. Estas herramientas, usadas con el propósito de generar código, testearlo, revisarlo, desplegarlo, etcétera, han revolucionado la ingeniería del software (de un modo tan brusco que la imparable adopción del nuevo modo de trabajo aún está en fase inicial). Pero, como hemos dicho, esas mismas herramientas pueden usarse para otros cometidos. Su uso desde el terminal limita una implantación en puestos de trabajo administrativos, pero esto también va a cambiar con:
-- la aparición de agentes especializados basados en extensiones para las aplicaciones GUI que dan acceso a los modelos (como MCP o conectores a diferentes servicios),
-- la aparición de modos de uso en los interfaces generales que permiten a los modelos acceder al sistema de ficheros del ordenador del usuario y/o a su navegador (como la funcionalidad Cowork recientemente implementada por Anthropic en su Cliente de escritorio para Claude).
+La IA ha pasado de autocompletador inteligente a agente capaz de desarrollar aplicaciones completas. Claude Code marcó esta transición, seguido por OpenAI (Codex CLI) y Google (Gemini CLI). Estas herramientas han revolucionado la ingeniería del software pero, sobre todo, han hecho realidad la aplicación de de agentes a tareas concretas (programación) y más generales. Es previsible que se extienda su uso a puestos de administración y gestión mediante:
+- agentes especializados con extensiones GUI (MCP, conectores a servicios),
+- modos que permiten acceso al sistema de ficheros y navegador (como Cowork de Anthropic).
 
-En definitiva: los agentes IA se han hecho realidad y, aunque presentan distinto grado de madurez según el campo de aplicación, van a transformar la forma en que se trabaja en muchos ámbitos profesionales en un plazo mucho más breve del que se podía anticipar hace solo unos meses.
+Aunque presentan distinto grado de madurez según el campo de aplicación, los agentes van a transformar la forma en que se trabaja en muchos ámbitos profesionales en un plazo mucho más breve del que se podía anticipar hace solo unos meses. El desarrollo de software lleva la delantera porque forma parte del flujo de trabajo de quienes están creando las IA, pero estos avances se transferirán al resto de dominios en un plazo no muy largo.
 
-Como hemos dicho, los avances más significativos se están dando en el desarrollo de software. Los avances de la IA en desarrollo de software llevan la delantera porque son parte del flujo de trabajo de quienes desarrollan los modelos y sus herramientas, así que el ciclo virtuoso se ha acelerado, pero parece evidente que se transferirán al resto de dominios en un plazo no muy largo.
+Enfrentamos una situación cambiante, que requiere una adaptación continua que dificulta la planificación estratégica, pero la peor estrategia es no hacer nada y no apostar siquiera por esa adaptación continua.
 
-Estamos, por tanto, ante una situación cambiante, que requiere una adaptación continua, lo que es complejo y dificulta la planificación estratégica, pero la peor estrategia es no hacer nada y no apostar siquiera por esa adaptación continua.
+En este documento no abordamos el impacto de la IAG en la docencia e investigación del profesorado y nos centramos en la gestión universitaria. El documento se estructura en varios bloques. En un primer bloque se efectúa un análisis de las herramientas y las necesidades:
 
-== Estructura del documento <sec:estructura>
-
-El documento se estructura en varios bloques. En un primer bloque se efectúa un análisis de las herramientas y las necesidades:
-
-- Herramientas disponibles e infraestructura necesaria para su despliegue
+- Herramientas disponibles e infraestructura necesaria para su despliegue y contratación de los modelos y servicios relacionados.
 
 - Clasificación del público en diferentes perfiles y objetivos de carácter estratégico, dividiendo entre la capa de usuarios y la de desarrolladores.
 
@@ -48,268 +55,168 @@ El documento se estructura en varios bloques. En un primer bloque se efectúa un
 
 En un segundo bloque se recogen los principales objetivos y acciones a realizar a corto, medio y largo plazo.
 
-El documento no se refiere al impacto que tiene la inteligencia artificial generativa sobre la actividad docente y sobre la actividad de investigación del profesorado, porque ese asunto requiere un tratamiento específico que excede el ámbito de este proyecto.
 
 = Análisis de herramientas y necesidades <sec:herramientas-necesidades>
 
-== Modelos de lenguaje <sec:llm>
+== Modelos y ecosistemas
+La evolución de los modelos grandes de lenguaje (LLM, por el inglés _Large Language Models_) que constituyen el estado del arte (SOTA, por el inglés _State of the Art_) es muy rápida. La validez de este análisis probablemente sea baja o nula en un plazo de tiempo corto si ponemos el foco en los modelos existentes y sus posibilidades. Es un análisis en el que
+- no importa tanto quién ostenta posiciones dominantes hoy como el hecho de que hay diferencias notables entre los LLM que encabezan los _rankings_ y el resto,
+- los precios se estructuran de modos similares en los modelos comerciales, con precios similares en las suscripciones y mayor variabilidad en el pago por uso.
 
-La evolución de los modelos grandes de lenguaje (LLM, por el inglés Large Language Models) que constituyen el estado del arte (SOTA, por el inglés _State of the Art_) es muy rápida y la validez de este análisis de los modelos existentes y sus posibilidades probablemente sea baja o nula en un plazo de tiempo corto. Debe tomarse, por tanto, como un análisis en el que
-- no importa tanto quién ostenta posiciones dominantes como el hecho de
-    que hay diferencias notables entre los LLM SOTA y los seguidores,
-- los precios se estructuran de modos similares en los modelos comerciales, con rangos de precios parecidos en las ofertas de suscripción con limitaciones y con mayor variabilidad en la ofertas de pago por uso.
-
-A 14 de enero de 2025, hay cuatro grandes creadores de modelos privativos SOTA y un modelo que destaca por sus prestaciones:
+A 14 de enero de 2025, hay cuatro grandes creadores de modelos privativos SOTA y, para cada uno de ellos, un modelo que destaca por sus prestaciones:
 
 #figure(
-    align(center, table(
-        columns: (auto, auto, auto),
-        align: (left, left, left),
-        stroke: none,
-        table.header(
-            table.hline(),
-            [*Empresa*],
-            [*Familia de modelos*],
-            [*Modelo SOTA*],
-            table.hline(),
-        ),
-        [OpenAI],
-        [GPT],
-        [GPT 5.2],
-        [Anthropic],
-        [Claude],
-        [Opus  4.5],
-        [Google],
-        [Gemini],
-        [Gemini 3.0 Pro],
-        [xAI],
-        [Grok],
-        [Grok 4.1],
-        table.hline(),
-    )),
-    kind: table,
-    caption: [Principales productores de modelos y sus modelos SOTA.],
-)
-
-Esta tabla resumen, no exhaustiva, da una idea del escenario en los
-modelos abiertos:
-
-#figure(
-    align(
-        center,
+    align(center, {
+        set text(size: .9em)
         table(
             columns: (auto, auto, auto),
             align: (left, left, left),
             stroke: none,
             table.header(
                 table.hline(),
-                [*Empresa*], [*Familia de modelos*], [*Modelo frontera*],
+                [*Empresa*],
+                [*Familia de modelos*],
+                [*Modelo SOTA*],
                 table.hline(),
             ),
-            [DeepSeek], [DeepSeek], [DeepSeek V3.2],
-            [Mistral], [Mistral/Devstral], [Mistral Large 3/Devstral 2],
-            [Alibaba], [Qwen], [Qwen3-235B-A22B],
-            [Baidu], [Ernie], [Ernie 4.5-VL-Thinking],
-            [Moonshot], [Kimi], [Kimi K2 Thinking],
-            [Z.ai], [GLM], [GLM 4.7],
-            [Meta], [Llama], [Llama 4],
+            [OpenAI],
+            [GPT],
+            [GPT 5.2],
+            [Anthropic],
+            [Claude],
+            [Opus  4.5],
+            [Google],
+            [Gemini],
+            [Gemini 3.0 Pro],
+            [xAI],
+            [Grok],
+            [Grok 4.1],
             table.hline(),
-        ),
+        )
+    }),
+    kind: table,
+    caption: [Principales productores de modelos y sus modelos más potentes.],
+)
+
+Esta tabla resumen, no exhaustiva, da una idea del escenario en los modelos abiertos:
+
+#figure(
+    align(
+        center,
+        {
+            set text(size: .9em)
+            table(
+                columns: (auto, auto, auto),
+                align: (left, left, left),
+                stroke: none,
+                table.header(
+                    table.hline(),
+                    [*Empresa*], [*Familia de modelos*], [*Modelo frontera*],
+                    table.hline(),
+                ),
+                [DeepSeek], [DeepSeek], [DeepSeek V3.2],
+                [Mistral], [Mistral/Devstral], [Mistral Large 3/Devstral 2],
+                [Alibaba], [Qwen], [Qwen3-235B-A22B],
+                [Baidu], [Ernie], [Ernie 4.5-VL-Thinking],
+                [Moonshot], [Kimi], [Kimi K2 Thinking],
+                [Z.ai], [GLM], [GLM 4.7],
+                [Meta], [Llama], [Llama 4],
+                table.hline(),
+            )
+        },
     ),
     kind: table,
     caption: [Principales productores de modelos abiertos y sus modelos más avanzados.],
 )
 
-Los modelos abiertos se pueden descargar libremente de #link("http://huggingface.co") y ejecutar con infraestructura propia o de nube. No obstante, las necesidades de recursos computacionales son importantes (los modelos con mejores prestaciones tienen requerimientos de cálculo y memoria altos) y un despliegue sobre equipos completamente controlados por personal propio (on premise o en nube privada) es difícil y requiere experiencia. La mejor opción para el despliegue de estos modelos es la contratación como SaaS a través de proveedores como el propio HuggingFace, OpenRouter o Azure.
+Los creadores de modelos privados también liberan modelos (GPT OSS de OpenAI, Gemma de Google...) con buenas prestaciones.#footnote[El modelo GPT OSS 120b de OpenAI es abierto, ofrece prestaciones similares a OpenAI o4 mini y puede ser ejecutado de forma eficiente mediante un equipo con 80 GB GPU.]
 
-Los creadores de modelos privados también liberan modelos (GPT OSS de OpenAI, Gemma de Google...) con lo que se enriquece el ecosistema. El modelo GPT OSS 120b de OpenAI es abierto, ofrece prestaciones similares a OpenAI o4 mini y puede ser ejecutado de forma eficiente mediante un equipo con 80 GB GPU.
-
-No obstante, los modelos abiertos no suelen ocupar posiciones de liderazgo. Esta tabla resume el estado actual#footnote[A fecha 8/1/2026 según LMArena, un benchmark basado en apreciaciones subjetivas de usuarios.]:
+En esta tabla se resume el _ranking_ a fecha 8/1/2026 según LMArena, un _benchmark_ basado en apreciaciones subjetivas de usuarios:
 
 #figure(
     align(
         center,
-        table(
-            columns: (auto, auto, auto, auto),
-            align: (left, left, left, left, right),
-            stroke: none,
-            table.header(
+        {
+            set text(size: .9em)
+            table(
+                columns: (auto, auto, auto, auto),
+                align: (left, left, left, left, right),
+                stroke: none,
+                table.header(
+                    table.hline(),
+                    [*Modalidad*], [*Mejor modelo*], [*Mejor modelo abierto*], [*Posición _ranking_*],
+                    table.hline(),
+                ),
+                [Texto], [Gemini 3 Pro], [GLM 4.7], [19],
+                [WebDev], [Claude Opus 4.5], [Minimax-M2.1-preview], [6],
+                [Visión], [Gemini 3 Pro], [Qwen VL 235B A22B Instruct], [14],
+                [Texto a imagen], [GPT Image 1.5], [Hunyuan Image 3.0], [8],
+                [Edición de imagen], [ChatGPT Image Latest], [Qwen Image Edit 2511], [9],
+                [Búsqueda], [Gemini 3 Pro Grounding], [Diffbot Small XL], [14],
+                [Texto a video], [Vei 3.1 fast audio], [Kandinsky 4.0 t2v Pro], [15],
+                [Imagen a video], [Veo 3.1 audio], [Wan v2.2 a14b], [22],
                 table.hline(),
-                [*Modalidad*], [*Mejor modelo*], [*Mejor modelo abierto*], [*Posición ranking*],
-                table.hline(),
-            ),
-            [Texto], [Gemini 3 Pro], [GLM 4.7], [19],
-            [WebDev], [Claude Opus 4.5], [Minimax-M2.1-preview], [6],
-            [Visión], [Gemini 3 Pro], [Qwen VL 235B A22B Instruct], [14],
-            [Texto a imagen], [GPT Image 1.5], [Hunyuan Image 3.0], [8],
-            [Edición de imagen], [ChatGPT Image Latest], [Qwen Image Edit 2511], [9],
-            [Búsqueda], [Gemini 3 Pro Grounding], [Diffbot Small XL], [14],
-            [Texto a video], [Vei 3.1 fast audio], [Kandinsky 4.0 t2v Pro], [15],
-            [Imagen a video], [Veo 3.1 audio], [Wan v2.2 a14b], [22],
-            table.hline(),
-        ),
+            )
+        },
     ),
     kind: table,
     caption: [Mejores modelos cerrados y abiertos por modalidad, según LLMArena, con indicación de la posición que ocupa el mejor modelo abierto en cada modalidad.],
 )
 
-Una primera conclusión es que la posición de liderazgo siempre la ocupa un modelo privativo. Se puede argumentar:
+Los modelos abiertos se descargan de #link("http://huggingface.co")[`http://huggingface.co`] y, en principio, pueden ejecutarse con infraestructura propia. No obstante, los elevados requerimientos computacionales de los modelos abiertos de mayores prestaciones y la necesidad de contar con personal formado en su despliegue y explotación hacen que la mejor opción sea contratarlos como SaaS (#link("http://huggingface.co")[HuggingFace], #link("https://openrouter.ai/")[OpenRouter], #link("https://azure.microsoft.com/en-us/solutions/ai")[Microsoft Azure]...).
 
-- que los _ranking_ son muy dinámicos y que esta situación puede cambiar,
-- y que el ranking no es más que un posicionamiento relativo y que las familias de modelos que hoy están detrás puede ofrecer, en pocos meses, prestaciones similares a los que ocupan ahora la primera posición.
+Del exanen de la tabla se puede extraer la conclusión de que la posición de liderazgo siempre la ocupa un modelo privativo. No obstante,
++ los _ranking_ son muy dinámicos y esta situación puede cambiar,
++ el _ranking_ no es más que un posicionamiento relativo y las familias de modelos que hoy están detrás puede ofrecer, en pocos meses, prestaciones similares a los que ocupan ahora la primera posición.
 
-Sobre el primer punto hay que decir que, aunque se puede dar ese vuelco, no se ha observado en los últimos meses, y sobre el segundo punto hay que decir que es cierto, pero para cuando un modelo haya evolucionado es probable que también lo hayan hecho los otros. La diferencia entre usar un modelo SOTA y uno que va unos meses por detrás es, hoy por hoy, determinante al evaluar la efectividad del modelo usado como agente y es probable que esa percepción se mantenga en el futuro. por tanto, hay y habrá una tendencia clara a utilizar los modelos de más altas prestaciones para conseguir despliegues efectivos.
+Aunque se puede dar el vuelco que señalamos en el primer punto, no se ha observado en los últimos meses. Por otra parte, cuando un modelo haya evolucionado hasta ser comparable con los modelos frontera actuales,  también lo habrán hecho estos, por lo que cabe esperar que se mantenga una diferencia notable entre los modelos SOTA privativos y los abiertos.
 
-== Contratación de los modelos y herramientas relacionadas <sec:contratación>
+La diferencia entre usar uno de los mejores modelos y los que van unos meses por detrás determina su efectividad como agente y es probable que esa ventaja se mantenga en el futuro. Al menos en una fase inicial, en la que la fiabilidad resulta crítica para una adopción generalizada por parte de los usuarios, la elección de modelos privativos y de altas prestaciones parece clara.
 
-=== Modalidades de contratación/despliegue <sec:modalidades-de-contratación>
+Hoy por hoy, los modelos de elección son Gemini 3.0 Pro de Google, Claude Opus 4.5 de Anthropic y ChatGPT 5.2 de OpenAI Pero no solo ha de preocupar el acceso a los modelos, sino también el ecosistema de herramientas e integraciones que facilita cada proveedor.
 
-Hay varias modalidades de uso de los modelos privativos y/o abiertos y cada unos comporta unos costes directos o indirectos.
+Por ejemplo, la UJI ha suscrito recientemente un contrato con Google Cloud que permite  utilizar servicios tecnológicos para el despliegue de agentes (Vertex AI Studio). La contratación con Google da acceso a herramientas que otros proveedores no ofrecen, como NotebookLM. Del mismo modo hay herramientas que ofrece Anthropic y no Google u OpenAI, como Claude Cowork.
 
-- *Suscripción* para el acceso a modelos privativos, con diferentes niveles o intensidades de uso y con licencias de uso personal o de equipos de trabajo (empresa):
+No solo han de tener en cuenta las herramientas que complementan a los modelos extendiendo su funcionalidad, sino también de la integración con el ecosistema de aplicaciones de productividad (Google Workspace for Education, Microsoft 365...).
 
-    - Gratis: Generalmente muy limitado, con restricciones en el volumen de uso y el acceso a determinados modelos, así como el interfaz de uso (suele ser un _chat web_).
+Teniendo en cuenta la potencia de los modelos de Google y la utilización de su ecosistema para la gestión en la UJI mediante _Google Workspace for Education_, se debería realizar un proyecto piloto de despliegue de un agente informador mediante Vertex para analizar la viabilidad de su utilización en futuros despliegues.
 
-    - Consumidor: en torno a 20 euros al mes por usuario. Válido para usos puntuales por un particular.
+== Desarrollos propios
 
-    - Consumidor Pro: en torno a 100 euros al mes por usuario. Uso intenso por un particular o moderado para un profesional.
+El despliegue de agentes propios que utilicen IAG requiere de infraestructura tecnológica específica.
 
-    - Profesional: en torno a 200 euros al mes por usuario. Uso intenso por un profesional.
-
-- *Pay-as-you-go* con acceso a modelos privativos y abiertos y pago con con métricas principalmente relacionadas con los _tokens_ de entrada y salida consumidos#footnote[Aunque tienen otros factores que modulan los precios, como el uso de caché, el modelo usado, la intensidad de "pensamiento", el procesamiento por tandas, descuentos por volumen alto...]
-
-    - Gratis: Muy limitado en el número de tokens. Vale para pruebas de concepto.
-
-    - En los modelos rápidos, entre 0,10 y 0,80 euros por 1M tokens de entrada y entre 0,40 y 4,00 euros por 1M de tokens de salida.
-
-    - En los modelos lentos, entre 2,00 y 5,00 por 1M de tokens de entrada y entre 12,00 y 25,00 euros por 1M de tokens.
-
-    Estas modalidades de pago por consumo se pueden contratar directamente con el proveedor del modelo o a intermediarios como OpenRouter, Azure, AWS, etcétera.
-
-- *Despliegue de modelos abiertos en infraestructura propia*, bien de nube privada, bien en equipos _on premise_. Está limitado a los modelos abiertos que, como hemos dicho, hoy por hoy no ofrecen las prestaciones de Gemini 3.0 Pro o Claude Opus 4.5. En principio, es el modelo más económico, pero presenta problemas de escalabilidad y de mantenimiento y presenta un coste indirecto importante: requiere de personal con experiencia en el despliegue y mantenimiento de modelos en _hardware_ específico.
-
-    - Los modelos de altas prestaciones consumen grandes recursos computacionales y un despliegue con medios propios no parece aconsejable: hay problemas de escalabilidad que están están externalizados en las otras modalidades de uso.
-
-    - Los modelos medianos y pequeños, más sencillos de desplegar, aún acusan problemas que antes eran comunes en cualquier modelo: tasas altas de alucinación, mezcla de lenguas, falta de foco en periodos de tiempo medios... Pueden ser útiles en tareas muy específicas (reconocimiento o síntesis de voz, por ejemplo), por lo que no sustituyen a los modelos de gran tamaño si la fiabilidad es un factor a considerar.
-
-De acuerdo con #link("https://epoch.ai/data-insights/llm-inference-price-trends"), la eficiencia de los modelos aumenta exponencialmente, con un factor medio de 40x anual (9x para los modelos que requieren de mayor potencia y de 900x para los modelos rápidos). Esto no significa que se vaya a abaratar la contratación, porque el mercado se ha ido ajustando a ciertas franjas de precios, pero sí que por un precio parecido se tendrá acceso a modelos más potentes.
-
-=== Modalidades en función del tipo de uso <sec:por-tipo-de-uso>
-
-Ciertos usos de los modelos privativos se pueden gestionar con suscripción, otros obligan a usar _Pay-as-you-go_ y otros permiten elegir una u otra modalidad. Ponemos algunos ejemplos:
-
-#figure(
-    align(center, [
-        #set par(justify: false);
-        #table(
-            columns: (1fr, .3fr, .3fr),
-            align: (left, left, left),
-            stroke: none,
-            table.header(
-                table.hline(),
-                [*Uso*], [*Suscripción*], [*Pay-as-you-go*],
-                table.hline(),
-            ),
-            [Desarrollo de software con agentes desde línea de órdenes], [Sí], [Opcional, tras agotar el límite],
-            [Desarrollo de software en un IDE con agentes], [Sí], [Opcional,tras agotar el límite],
-            [Integración de la IA en software propio],
-            [No siempre#footnote[En enero de 2026, Anthropic, por ejemplo, lo ha prohibido, y OpenAI, como reacción, lo ha permitido expresamente.]],
-            [Sí],
-            [Copiloto en editor de texto, correo, etcétera], [Sí], [No],
-            [Chatbot facilitado por el proveedor], [Si], [En principio, no],
-            [Chatbot con desarrollo propio], [No], [Sí],
-            [Agentes en desarrollos propios],
-            [No siempre],
-            [Sí],
-            table.hline(),
-        )]),
-    kind: table,
-)
-
-Las modalidades de _Pay-as-you-go_ son más costosas que las de suscripción para usos intensivos, por lo que parece más interesante decantarse por la suscripción cuando esta es suficiente. En función del perfil de usuario y de lo que el mercado permite contratar, hay diferentes soluciones:
-
-- Para un uso como asistente en la consulta de información con chat, resumen de documentos, generación esporádica de informes... basta con una suscripción usuario convencional.
-
-- Para un uso más intenso como agente (desarrollo de software, análisis de datos, generación habitual de informes, etcétera...), una suscripción en la capa Profesional parece suficiente para un trabajo de 7 horas diarias de uso del agente. Esta modalidad tiene la ventaja, frente al _Pay-as-you-go_, de  controlar eficazmente el límite de gasto, aunque también presenta el inconveniente de suponer un coste recurrente fijo.
-
-=== Ecosistema e integraciones
-
-No solo ha de preocupar la contratación del acceso a los modelos, sino también el ecosistema de herramientas e integraciones que facilita cada proveedor.
-
-Por ejemplo, la UJI ha suscrito recientemente un contrato con Google Cloud que permite  utilizar servicios tecnológicos para el despliegue de agentes (Vertex AI Studio). La contratación con Google da acceso a herramientas que otros proveedores no ofrecen, como NotebookLM, pero del mismo modo hay herramientas que ofrece Anthropic y no Google u OpenAI, como los Skills de Claude.
-
-Y ya no hablamos solo de las herramientas que complementan a los modelos extendiendo su funcionalidad, sino también de la integración con el ecosistema de aplicaciones de productividad (Google Workspace for Education, Microsoft 365...).
-Teniendo en cuenta la potencia de los modelos de Google y la utilización de su ecosistema para la gestión en la UJI mediante Google Workspace for Education, se debería realizar un proyecto piloto de despliegue de un agente informador mediante Vertex para analizar la viabilidad de su utilización en futuros despliegues.
-
-
-
-=== Capa tecnológica necesaria para el despliegue de agentes propios
-
-El despliegue de agentes propios que utilicen inteligencia artificial requiere de infraestructura tecnológica (el acceso a la información, la capa de orquestación y lógica, el marco de desarrollo, capa de integración y conectividad...).
-
-Las soluciones a utilizar no serán siempre las mismas pero se debe analizar y definir esta infraestructura y ciertas políticas en aquellos supuestos en que se vayan a efectuar desarrollos propios:
+Se debe analizar y definir esta infraestructura y las políticas cuando se vaya a efectuar desarrollos propios:
 - herramientas de orquestación,
-- base de datos vectorial que se utilizará,
-- cómo se hará la ingesta de datos y la estrategia de recuperación,
-- como se hará el despliegue de las soluciones,
-- qué modelos se utilizarán para cada uso,
-- cómo se analizará los costes y el balance coste/rendimiento de los modelos...
+- base de datos vectorial que se utilizará para sistemas de recuperación aumentada por IA (RAG, por el inglés _Retrieval Augmented Generation_),
+- ingesta de datos y estrategia de recuperación,
+- despliegue de las soluciones,
+- modelos que se utilizarán para cada uso,
+- análisis de costes y balance coste/rendimiento de los modelos,
+- pila de desarrollo,
+- capa de integración y conectividad...
 
-Tras las pruebas del proyecto piloto del chatbot RAG para información de normativa administrativa se descartó la puesta en operación porque los resultados no eran adecuados.
+Tras las pruebas del proyecto piloto del chatbot RAG para información de normativa administrativa se descartó la puesta en operación porque los resultados no eran adecuados. Habría que analizar las causas y en qué medida estas insuficiencias resultan imputables al modelo utilizado (han avanzado mucho desde esa prueba piloto) o a otra infraestructura tecnológica, porque la necesidad de desplegar agentes que permitan un mejor acceso a la información institucional por parte de los usuarios sigue estando vigente y constituye un campo de aplicación en el que la IAG ha demostrado su eficacia.
 
-Habría que analizar las causas y en qué medida estas insuficiencias resultan imputables al modelo utilizado (han avanzado mucho desde esa prueba piloto) o a otra infraestructura tecnológica, porque la necesidad de desplegar agentes que permitan un mejor acceso a la información institucional por parte de los usuarios sigue estando vigente y constituye un campo de aplicación en el que la IA generativa ha demostrado su eficacia.
+== Acceso a la información institucional
 
-El acceso a la información institucional con la que se va a trabajar es crucial. La información tiene diferente grados de:
-- confidencialidad (Información pública, información interna, información sensible, información personal...),
-- estructura/formato (datos estructurados, documentos de texto, imágenes, audio...).
+El acceso a la información institucional con la que se va a trabajar es crucial.
 
-La información se ha de clasificar por el nivel de exposición permitida a los modelos IA cuando estos se contratan en modalidad de suscripción o _Pay-as-you-go_, porque en estos casos la información se envía a los servidores del proveedor del modelo y puede quedar almacenada en ellos, con los riesgos que esto supone en función del tipo de información.
+La información se ha de clasificar por el nivel de exposición permitida a los modelos IA cuando estos se contratan en modalidad de suscripción o _pago por uso_, porque en estos casos la información se envía a los servidores del proveedor del modelo y puede quedar almacenada en ellos, con los riesgos que esto supone en función del tipo de información.
 
-El hecho de que cierta información no pueda suministrarse directamente a los modelos no es factor limitador importante:
+El hecho de que cierta información no pueda suministrarse directamente a los modelos no es un factor limitador importante:
 - la IA sigue siendo útil generando herramientas deterministas (aplicaciones) que procesan la información en local,
 - los modelos pueden trabajar con información anonimizada o agregada.
 
-En cualquier caso, la información exponible ha de estar disponible en fuentes gestionadas por la Universidad
-- con la granuralidad necesaria en los permisos de acceso,
-- con la información sobre su nivel de protección frente al uso director por los modelos,
-- con la estructura y formato adecuados para su ingesta por los modelos (texto plano, JSON, CSV, etcétera).
+En cualquier caso, la información exponible ha de estar disponible en fuentes gestionadas por la Universidad.
+- Con la granuralidad necesaria en los permisos de acceso de los usuarios que operan la IA.
+- Con los niveles de protección de la información frente al uso directo por los modelos bien definidos: información pública, información interna no confidencial, información sensible, información de carácter personal especialmente protegida... Se ha de establecer qué información solo puede procesarse en local (aunque la herramientas de procesamiento hayan sido construidas con/por modelos) y qué información puede ser consumida por modelos en la nube.
+- Con la estructura y formato adecuados para su ingesta por los modelos: texto plano, JSON, CSV, PDF, Markdown, etcétera.
+- Con la documentación necesaria para facilitar su comprensión por los modelos: esquemas de datos, diccionarios de datos, glosarios, descripciones textuales en ficheros de acompañamiento...
 
 Existe un grupo de trabajo para la mejora de la fiabilidad y el acceso a la información. Es necesario que se efectúe un despliegue de las acciones planificadas en el grupo. Se recoge una síntesis de las que afectan al despliegue de la inteligencia artificial, en el apartado de objetivos y acciones.
 
 
 
-=== Contratación pública <sec:contratación-pública>
-
-De lo expuesto se puede apreciar la dificultad que entraña la contratación pública de estos servicios:
-
-- los servicios están en evolución constante, sobre los es imposible establecer un conjunto de requisitos cerrado y definitivo,
-- las empresas son multinacionales que no se presentan a licitaciones locales, por lo que ha de interponerse algún intermediario (encareciendo el coste),
-- aunque los modelos sean comparables entre sí, no lo es tanto el ecosistema de herramientas e integraciones que ofrecen cada uno de los proveedores.
-
-Todo esto generar un escenario muy complejo a la hora de la contratación pública. En las suscripciones se compran licencias por persona (posiblemente agrupadas en equipos de trabajo) y en las modalidades de _Pay-as-you-go_ se compra crédito para el consumo de _tokens_. Esto hace que la contratación pase un modelo de acuerdo marco con intermediarios que faciliten la contratación a demanda de los diferentes modelos y modalidades, así como la facturación de los consumos realizados.
-
-Otra complicación técnica es el aseguramiento del cumplimiento de las exigencias del Reglamento UE de Inteligencia Artificial.
-
-
-==== Contratación de suscripción con modelos privativos.
-<sec:contratación-de-suscripción-con-modelos-privativos.>
-Muchos perfiles pueden ver satisfechas sus necesidades con modelos de suscripción. Son aquellos que usan los LLM principalmente para consulta de información vía chat o hacen un uso esporádico de agentes (creación de documentos, análisis de hojas de cálculo).
-
-La contratación de licencias de suscripción debe encauzarse mediante un acuerdo marco con un intermediario que:
-
-- Facilite la contratación de licencias de diferentes proveedores, a demanda.
-
-- Gestione las licencias que permiten englobar a los usuarios en una organización (_team_).
-
-==== Contratación de modalidades PAY-AS-YOU-GO con modelos privativos.
-<sec:contratación-de-modalidades-pay-as-you-go-con-modelos-privativos.>
-
-Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
-
-==== Contratación de modalidades PAY-AS-YOU-GO con modelos abiertos.
-<sec:contratación-de-modalidades-pay-as-you-go-con-modelos-abiertos.>
-
-Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
 
 == Las necesidades de los usuarios <sec:necesidades>
 
@@ -652,6 +559,112 @@ Planificación del despliegue de IA (2 años desde la aprobación del plan)
 #pagebreak()
 
 #appendix[
+    = Contratación de los modelos y herramientas relacionadas <sec:contratación>
+
+    Hay varias modalidades de uso de los modelos privativos y/o abiertos y cada unos comporta unos costes directos o indirectos.
+
+    - *Suscripción a modelos privativos*, con diferentes niveles o intensidades de uso y con licencias de uso personal o de equipos de trabajo (empresa):
+
+        - *Gratis*: Generalmente muy limitado, con restricciones en el volumen de uso y el acceso a determinados modelos, así como el interfaz de uso (suele ser un _chat web_).
+
+        - *Consumidor*: en torno a 20 euros al mes por usuario. Válido para usos puntuales por un particular.
+
+        - *Consumidor Pro*: en torno a 100 euros al mes por usuario. Uso intenso por un particular o moderado para un profesional.
+
+        - *Profesional*: en torno a 200 euros al mes por usuario. Uso intenso por un profesional.
+
+    - *Pago por uso de modelos privativos y abiertos*. El coste es proporcional a los _tokens_ de entrada y salida#footnote[Aunque hay más factores que modulan los precios, como el uso de caché, el modelo usado, la intensidad de "pensamiento", el procesamiento por tandas, descuentos por volumen alto...].
+
+        - *Gratis*: Muy limitado en el número de tokens. Solo vale para pruebas de concepto.
+
+        - *Modelos rápidos*. Entre 0,10 y 0,80 euros por 1M tokens de entrada y entre 0,40 y 4,00 euros por 1M de tokens de salida.
+
+        - *Modelos lentos* (con razonamiento, con diferente intensidad de pensamiento). Entre 2,00 y 5,00 por 1M de tokens de entrada y entre 12,00 y 25,00 euros por 1M de tokens.
+
+        El pago por uso se pueden contratar con el proveedor del modelo o con intermediarios como OpenRouter, Azure, AWS, etcétera.
+
+    - *Despliegue de modelos abiertos en infraestructura propia*, bien en nube privada, bien en equipos _on premise_. Está limitado a los modelos abiertos que, como hemos dicho, hoy por hoy no ofrecen las prestaciones de los modelos líder. En principio, es la fórmula más económica, pero:
+
+        - Los modelos de altas prestaciones consumen grandes recursos computacionales y un despliegue con medios propios no parece aconsejable: hay problemas que están están externalizados en las otras modalidades de uso:
+            - escalabilidad para atender una demanda variable,
+            - y personal con experiencia en la gestión de _hardware_ específico.
+
+
+        - Los modelos medianos y pequeños aún acusan ciertos problemas que dificultan la adopción: tasas altas de alucinación, mezcla de lenguas en la salida, falta de foco en periodos de tiempo medios... Pueden ser útiles en tareas muy específicas (reconocimiento o síntesis de voz, por ejemplo), por lo que no sustituyen a los modelos de gran tamaño si la fiabilidad es un factor a considerar.
+
+    Ciertos usos de los modelos privativos se pueden gestionar con suscripción, otros obligan a usar _pago por uso_ y otros permiten elegir una u otra modalidad. Ponemos algunos ejemplos:
+
+    #figure(
+        align(center, [
+            #set par(justify: false);
+            #table(
+                columns: (1fr, .3fr, .3fr),
+                align: (left, left, left),
+                stroke: none,
+                table.header(
+                    table.hline(),
+                    [*Uso*], [*Suscripción*], [*Pago por uso*],
+                    table.hline(),
+                ),
+                [Desarrollo de software con agentes desde línea de órdenes], [Sí], [Opcional, tras agotar el límite],
+                [Desarrollo de software en un IDE con agentes], [Sí], [Opcional,tras agotar el límite],
+                [Integración de la IA en software propio],
+                [No siempre#footnote[En enero de 2026, Anthropic, por ejemplo, lo ha prohibido, y OpenAI, como reacción, lo ha permitido expresamente.]],
+                [Sí],
+                [Copiloto en editor de texto, correo, etcétera], [Sí], [No],
+                [Chatbot facilitado por el proveedor], [Si], [En principio, no],
+                [Chatbot con desarrollo propio], [No], [Sí],
+                [Agentes en desarrollos propios],
+                [No siempre],
+                [Sí],
+                table.hline(),
+            )]),
+        kind: table,
+    )
+
+    Las modalidades de _pago por uso_ son más costosas que las de suscripción para usos intensivos, por lo que parece más interesante decantarse por la suscripción cuando esta es suficiente. En función del perfil de usuario y de lo que el mercado permite contratar, hay diferentes soluciones:
+
+    - Para un uso como asistente en la consulta de información con chat, resumen de documentos, generación esporádica de informes... basta con una suscripción de usuario convencional (organizada en equipos de trabajo, cuando sea posible).
+
+    - Para un uso más intenso como agente (desarrollo de software, análisis de datos, generación habitual de informes, etcétera...), una suscripción en la capa Profesional parece suficiente para un trabajo de 7 horas diarias de uso del agente. Esta modalidad tiene la ventaja, frente al _pago por uso_, de  controlar eficazmente el límite de gasto, aunque también presenta el inconveniente de suponer un coste recurrente fijo.
+
+    De acuerdo con el artículo «#link("https://epoch.ai/data-insights/llm-inference-price-trends")[LLM inference prices have fallen rapidly but unequally across tasks]» de Epoch AI, la eficiencia de los modelos aumenta exponencialmente con un factor medio de 40x anual (9x para los modelos que requieren de mayor potencia y 900x para los modelos rápidos).
+
+    Esta mejora exponencial no significa necesariamente que se vaya a abaratar la contratación, pero sí que por un determinado precio se tendrá acceso a modelos más potentes.
+
+    == Contratación pública <sec:contratación-pública>
+
+    De lo expuesto se puede apreciar la dificultad que entraña la contratación pública de estos servicios:
+
+    - los servicios están en evolución constante, sobre los es imposible establecer un conjunto de requisitos cerrado y definitivo,
+    - las empresas son multinacionales que no se presentan a licitaciones locales, por lo que ha de interponerse algún intermediario (encareciendo el coste),
+    - aunque los modelos sean comparables entre sí, no lo es tanto el ecosistema de herramientas e integraciones que ofrecen cada uno de los proveedores.
+
+    Todo esto generar un escenario muy complejo a la hora de la contratación pública. En las suscripciones se compran licencias por persona (posiblemente agrupadas en equipos de trabajo) y en las modalidades de _pago por uso_ se compra crédito para el consumo de _tokens_. Esto hace que la contratación pase un modelo de acuerdo marco con intermediarios que faciliten la contratación a demanda de los diferentes modelos y modalidades, así como la facturación de los consumos realizados.
+
+    Otra complicación técnica es el aseguramiento del cumplimiento de las exigencias del Reglamento UE de Inteligencia Artificial.
+
+
+    === Contratación de suscripción con modelos privativos.
+    <sec:contratación-de-suscripción-con-modelos-privativos.>
+    Muchos perfiles pueden ver satisfechas sus necesidades con modelos de suscripción. Son aquellos que usan los LLM principalmente para consulta de información vía chat o hacen un uso esporádico de agentes (creación de documentos, análisis de hojas de cálculo).
+
+    La contratación de licencias de suscripción debe encauzarse mediante un acuerdo marco con un intermediario que:
+
+    - Facilite la contratación de licencias de diferentes proveedores, a demanda.
+
+    - Gestione las licencias que permiten englobar a los usuarios en una organización (_team_).
+
+    === Contratación de modalidades Pago por uso con modelos privativos. <sec:modo-pago-por-uso-con-modelos-privativos>
+
+    Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
+
+    === Contratación de modalidades Pago por uso con modelos abiertos.
+    <sec:modo-pago-por-uso-con-modelos-abiertos>
+
+    Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
+
+
     = Notas para el desarrollo de algunas acciones <sec:anexo-1-notas-para-el-desarrollo-de-algunas-acciones>
 
     == Objetivos: <sec:objetivos>
