@@ -13,8 +13,9 @@
         #c.body
     ]
     show quote.where(block: true): set block(inset: (x: 1em))
-
-
+    show strong: set text(weight: 300)
+    show outline.entry.where(level: 1): set outline.entry(fill: [])
+    show outline.entry.where(level: 1): set text(weight: "bold")
     doc
 }
 
