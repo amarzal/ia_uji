@@ -345,18 +345,25 @@ Aquí hay varios tipos de aplicación de la IA, cada con unas exigencias de form
     Estas herramientas requieren un desarrollo específico, una integración con la infraestructura tecnológica de la universidad y un análisis riguroso de los problemas asociados a la confidencialidad, confiabilidad y seguridad. La formación necesaria para este tipo de herramientas es específica y debe adaptarse a las funciones concretas que desempeña cada colectivo de usuarios.
 
 
+=== Grupo 3: Analistas de datos y usuarios avanzados de información corporativa <sec:grupo-analistas-de-datos-y-usuarios-avanzados>
 
-=== Grupo 3: Analistas de datos y usuarios avanzados <sec:grupo-analistas-de-datos-y-usuarios-avanzados>
+Hay un perfil de analistas de datos y usuarios avanzados en la explotación de la información corporativa (como determinados directivos o jefes de servicio que realizan tareas de análisis y _reporting_ para los que se requiere acceso frecuente a datos corporativos y habilidades de análisis de datos). Estos tienen necesidades particulares de acceso a la información y disponen de habilidades técnicas para tratarla, así como capacidad para generar conocimiento institucional que debe ser compartido de forma eficiente.
 
-Los analistas de datos y otros usuarios avanzados (por ejemplos, determinados directivos, como jefes de servicio que realizan tareas de análisis y _reporting_ que requiere habilidades de análisis de datos) deben ser tratados como un perfil especial porque tienen necesidades particulares de acceso a la información y disponen de habilidades técnicas para tratarla y, también, para generar conocimiento institucional que debe poder ser compartido de forma eficiente.
+En algún caso presentan, además, un perfil técnico que permite el liderazgo en la construcción de demostrativos y proyectos piloto de _software_ y  para su posterior generalización, en caso de éxito.
 
-En algún caso presentan, además, un perfil técnico que permite el liderazgo en la construcción de demostrativos y proyectos piloto de desarrollo para su posterior generalización, en caso de éxito.
+Es imprescindible que este grupo de usuarios disponga
+- de un acceso adecuado a las fuentes de información que necesitan,
+- de criterios que definan una pila de tecnologías de referencia (lenguajes, librerías, formatos de datos...),
+- de medios y convenios para poder compartir los desarrollos
+- y de modos bien definidos para la puesta a disposición de los resultados a los consumidores de sus informes (que pueden ser dinámicos).
 
-Es imprescindible que este grupo de usuarios disponga de un acceso adecuado a la información que necesitan, que se consensúen los criterios que permitan la utilización de tecnologías comunes que puedan ser compartidas y que dispongan de medios para poder compartir desarrollos y poner a disposición de otros usuarios los resultados.
+Han de tener una formación que tenga en el centro la importancia de la confidencialidad de la información que manejan, que en ocasiones puede ser de carácter personal y estar protegida.
 
-Han de tener una formación que permita asegurar la confidencialidad de la información que manejan, que en ocasiones puede ser de carácter personal y estar protegida. Estos usuarios han de vitar facilitar datos en bruto a modelos externos y orientas el uso de la IA a la construcción de herramientas que procesan los datos en local o con ayuda de modelos sobre los que hay garantías suficientes de seguimiento de políticas respetuosas con el RGPD.
+Estos usuarios han de evitar el suministro de datos en bruto a modelos externos cuando sea posible o aconsejable y orientar preferentemente el uso de la IA a la construcción de herramientas que procesan los datos en local o con ayuda de modelos sobre los que hay garantías suficientes de seguimiento de políticas respetuosas con el RGPD y el RIA.
 
-También es necesario que se utilice una arquitectura de código limpio en la que esté totalmente desacoplada la capa de presentación de la capa de lógica. Los scripts de procesamiento de la información deberían ser “cajas negras” que recibe datos y devuelve resultados, que pudieran ser ejecutados de forma independiente a la herramienta que se utilice para la interacción y visualización en la fase de prototipado. De este modo se facilita el prototipado, el escalado a las fases de piloto y producción y la traducción a otros lenguajes de programación. Y también se permite que se pueda compartir el conocimiento que se está generando (aplicaciones de análisis, consultas, informes, dashboards, scripts ETL, etc. ).
+También es necesario que se utilice una arquitectura de código limpio en la que esté totalmente desacoplada la capa de presentación de la capa de lógica. Los _scripts_ de procesamiento de la información deberían ser "cajas negras" que reciben datos y devuelven resultados,  ejecutables con la mayor independencia posible de la herramienta que se utilice para la interacción y visualización.
+
+De este modo se facilita el prototipado, el escalado a las fases de piloto y producción y la traducción a otros lenguajes de programación. Y también se permite que se pueda compartir el conocimiento que se está generando (aplicaciones de análisis, consultas, informes, dashboards, scripts ETL, etc. ).
 
 === Grupo 4: Desarrolladores <sec:grupo-desarrolladores>
 

@@ -1,10 +1,10 @@
 #let plantilla = doc => {
     set page(numbering: "1")
-    set text(font: "Roboto", size: 11pt, lang: "es")
+    set text(font: "IBM Plex Sans", size: 11pt, lang: "es")
     set par(justify: true)
     set heading(numbering: "1.1")
     show raw.where(block: false): it => {
-        set text(font: "Roboto Mono", size: 1.2em)
+        set text(font: "IBM Plex Mono", size: 1.2em)
         it
     }
     show figure: set block(spacing: 2.5em)
