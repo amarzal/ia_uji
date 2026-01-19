@@ -9,7 +9,7 @@
     - acción: Definición del marco de gobernanza y de las políticas aplicables a la utilización de la IAG en la UJI en los procesos de gestión.
       breve: Marco de gobernanza y políticas IA en gestión
       responsables:
-      - Comité gobernanza IA
+      - Comité de gobernanza IA
       - OIATI
       semestres: [1, 2]
 
@@ -20,17 +20,50 @@
     - acción: "Definir la metodología de Priorización: Implementar el grupo de detección de necesidades con representantes de los usuarios para filtrar qué proyectos pasan de \"Uso Personal\" a desarrollo corporativo."
       breve: Metodología de priorización
       responsables:
-      - Comité gobernanza IA
+      - Comité de gobernanza IA
       - OIATI
       semestres: [1, 2]
 
     - acción: "Formalizar la \"Capa de Innovación\": Establecer un equipo o asignación de recursos dedicados exclusivamente a pruebas de concepto (PoC) y pilotos, separado de la presión operativa del mantenimiento diario."
       breve: Capa de innovación
       responsables:
-      - Comité Gobernanza
+      - Comité de gobernanza IA
       - OIATI
       - UADTI
       semestres: [1, 2, 3, 4]
+
+  - objetivo: Evaluar y seleccionar las tecnologías adecuadas en puestos de trabajo singulares
+    etq: obj-profesionales
+    acciones:
+    - acción: Evaluar tecnologías disponibles en cada uno de los perfiles profesionales de unidades no administrativas
+      breve: Evaluación tecnologías por perfil
+      responsables:
+      - Comité de gobernanza IA
+      - OIATI
+      - Servicios implicados (SCP, SLT...)
+      semestres: [1]
+    - acción: Seleccionar tecnologías maduras en cada uno de los perfiles profesionales de unidades no administrativas
+      breve: Selección tecnologías por perfil
+      responsables:
+      - Comité de gobernanza IA
+      - OIATI
+      - Servicios implicados (SCP, SLT...)
+      semestres: [1, 2]
+    - acción: Contratación de las herramientas seleccionadas en cada uno de los perfiles profesionales de unidades no administrativas
+      breve: Contratación tecnologías por perfil
+      responsables:
+      - Comité de gobernanza IA
+      - SCAG
+      - OIATI
+      - Servicios implicados (SCP, SLT...)
+      semestres: [2, 3]
+    - acción: Formación en el uso de las herramientas contratadas en cada uno de los perfiles profesionales de unidades no administrativas
+      breve: Formación tecnologías por perfil
+      responsables:
+      - Comité de gobernanza IA
+      - UFIE
+      - Servicios implicados (SCP, SLT...)
+      semestres: [2, 3]
 
 - área: Datos e Infraestructura
   etq: área-datos

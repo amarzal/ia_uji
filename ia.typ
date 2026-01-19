@@ -244,11 +244,9 @@ En cualquier caso, la información exponible ha de estar disponible en fuentes g
 Existe un grupo de trabajo para la mejora de la fiabilidad y el acceso a la información. Es necesario que se efectúe un despliegue de las acciones planificadas en el grupo. Se recoge una síntesis de las que afectan al despliegue de la inteligencia artificial, en el apartado de objetivos y acciones.
 
 
-
-
 == Las necesidades de los usuarios <sec:necesidades>
 
-Cualquier despliegue de servicios tecnológicos debe efectuarse desde la perspectiva de los usuarios y sus necesidades. En este caso es especialmente relevante porque la utilización de IA implica un cambio de paradigma y entraña un reaprendizaje de las herramientas de gestión y de cómo se interactúa con ellas.
+Cualquier despliegue de servicios tecnológicos debe considerar la perspectiva de los usuarios y sus necesidades. En este caso es especialmente relevante porque la utilización de IA implica un cambio de paradigma y un reaprendizaje de las herramientas de gestión y de la interacción con ellas.
 
 Por usuarios debemos entender a cualquier persona que se relaciona con la universidad. Los diferentes colectivos presentan perfiles muy diversos:
 - público externo (terceros que demandan información o servicios a la universidad),
@@ -273,7 +271,7 @@ La atención a las necesidades y la experiencia del usuario resulta imprescindib
 
     El usuario está acostumbrado a la interacción con aplicaciones _web_ y, en algunos casos, con Forms de Oracle. El salto a un uso de modelos multimodales no es trivial y requiere, aún más, centrar el foco en  la usabilidad. La experiencia de usuario es crucial: se han de evitar interfaces complejos y se han de favorecer la integración de la IA en entorno de trabajo habituales, reduciendo tanto como se pueda la barrera adicional de aprender un nuevo entorno.
 
-- *Compartición de artefactos*. El uso de la IA genera un conjunto de artefactos que debe ser reutilizados por otros usuarios para un máximo aprovechamiento.
+- *Repositorios de artefactos*. El uso de la IA genera un conjunto de artefactos que debe ser reutilizados por otros usuarios para un máximo aprovechamiento.
 
     Por ejemplo, los modelos especializan su comportamiento mediante _prompts_ (descripciones textuales) que se almacenan en ficheros de texto. Estos ficheros deben ser fácilmente compartibles por los usuarios de un mismo servicio, de modo que se homogeneice el comportamiento del modelo y se evite la repetición de esfuerzos.
 
@@ -324,13 +322,29 @@ Esto no significa que no sea necesario hacer desarrollos específicos en algunos
 
 Lo ideal sería que la iniciativa de adoptar la IA partiera de los miembros de estos colectivos. Son quienes mejor conocen sus respectivos campos de actividad y quienes pueden valorar la adecuación de las herramientas para el tipo de funciones que desempeñan. En los casos en los que no se dé la iniciativa, se deberá apostar, en primer lugar, por una formación especializada y, cuando sea necesario, por acciones de consultoría  que permitan identificar las herramientas más adecuadas y planificar su despliegue.
 
-=== Grupo 2: Gestores <sec:grupo-gestores>
+=== Grupo 2: Gestores administrativos <sec:grupo-gestores>
 
-Entendemos que son gestores los usuarios de aplicaciones desarrolladas en la universidad. Esto incluye a los miembros del PTGAS, pero también al PDI o al PI cuando realizan tareas de gestión.
+Entendemos que son gestores administrativos los usuarios de aplicaciones desarrolladas en la universidad. Esto incluye a los miembros del PTGAS, pero también al PDI o al PI cuando realizan tareas de gestión administrativa.
 
-En relación con las necesidades de gestión de carácter general, en una primera fase el despliegue de la utilización de herramientas de IA por parte de la UJI se ha producido ofreciendo licencias corporativas (Gemini, Copilot) que facilitan la utilización y aseguran la confidencialidad de la información), un servicio de análisis de los problemas de seguridad y confidencialidad en la contratación de licencias distintas y formación general respecto a la utilización de la IA y de estas herramientas generales en distintos usos.
+Aquí hay varios tipos de aplicación de la IA, cada con unas exigencias de formación y adaptación distintas:
 
-Otro frente de uso de herramientas IA se dará a través de la integración de esta en las herramientas que facilita la universidad. Si, por ejemplo, se integra un asistente en el gestor de compras menores o un validador de estilo en ciertos campos, los usuarios interactuarán con la IA a través de esa herramienta. La formación necesaria es menor para este tipo de usos si he tenido en cuenta la experiencia de usuario y la usabilidad en el diseño de las integraciones.
+- El uso de *herramientas transversales de IA* que facilitan los proveedores. En una primera fase el despliegue de la utilización de herramientas de IA por parte de la UJI se ha producido ofreciendo licencias corporativas (Gemini, Copilot), lo que facilita un uso extendido y asegura la confidencialidad de la información. Con esta contratación se facilita el uso de asistentes en las herramientas ofimáticas habituales (procesadores de texto, hojas de cálculo, gestores de correo electrónico...) y se permite el acceso a modelos de lenguaje para tareas generales (redacción de textos, generación de informes, análisis de datos...). También se dispone de acceso a sistemas que permiten la interacción con documentos para su consulta y estudio (como NotebookLM de Google).
+
+    La formación necesaria para este tipo de herramientas es básica y se puede efectuar mediante cursos genéricos. No obstante, es recomendable que se adapten los contenidos a las tareas administrativas habituales y que se incluyan ejemplos prácticos relacionados con la gestión universitaria.
+
+- La *integración de la IA con funcionalidad auxiliar en las herramientas desarrolladas por la universidad*. La IA se puede integrar mejorando la funcionalidad de las aplicaciones existentes. Esto puede hacerse de varias formas:
+    - Integración de agentes que faciliten la interacción con la aplicación (chatbots, asistentes virtuales...).
+    - Integración de copilotos que ayuden en tareas concretas (generación de textos, validación de datos, generación de informes...).
+    - Automatización de procesos mediante agentes que realicen tareas repetitivas o rutinarias (ingesta de datos, generación de documentos...).
+    - Validación de datos mediante reglas definidas en lenguaje natural.
+
+    Estas integraciones están en estudio. Cuentan con el problema de la contratación, que necesariamente ha de ser con modalidades de pago por uso o han de apoyarse en el uso de modelos abiertos desplegados en infraestructura propia o contratada. La formación necesaria para este tipo de integración es de carácter generalista.
+
+- La *creación de nuevas herramientas que tienen a la IA en su núcleo* y facilitan la realización de tareas administrativas concretas (gestión de expedientes, generación de informes, análisis de datos...).
+
+    Estas herramientas requieren un desarrollo específico, una integración con la infraestructura tecnológica de la universidad y un análisis riguroso de los problemas asociados a la confidencialidad, confiabilidad y seguridad. La formación necesaria para este tipo de herramientas es específica y debe adaptarse a las funciones concretas que desempeña cada colectivo de usuarios.
+
+
 
 === Grupo 3: Analistas de datos y usuarios avanzados <sec:grupo-analistas-de-datos-y-usuarios-avanzados>
 
