@@ -12,12 +12,14 @@
 
 = Introducción <sec:intro>
 
+== Un cambio disruptivo y acelerado en la gestión
+
 La Inteligencia Artificial (IA) y, en particular, la IA Generativa (IAG) va a transformar la gestión administrativa, reduciendo tareas repetitivas y aumentando la eficiencia en una integración entre tecnología y talento humano.
 
-En el desarrollo de _software_ el cambio está siendo especialmente disruptivo, como ilustra este tweet de Andrej Karpathy (26/12/2026)#footnote[
-    *Igor Babushkin* `@ibab` 26 de diciembre (de 2025): Opus 4.5 es muy bueno.
+En el desarrollo de _software_ el cambio está siendo especialmente disruptivo y acelerado, como ilustra este tweet de Andrej Karpathy (26/12/2026)#footnote[
+    *Igor Babushkin* `@ibab`, 26 de diciembre (de 2025): Opus 4.5 es muy bueno.
 
-    *Andrej Karpathy* `@karpathy` 26 de diciembre (de 2025): Es muy bueno. La gente que no se ha mantenido informada incluso en los últimos 30 días ya tiene una visión obsoleta sobre este asunto.]:
+    *Andrej Karpathy* `@karpathy`, 26 de diciembre (de 2025): Es muy bueno. La gente que no se ha mantenido informada incluso en los últimos 30 días ya tiene una visión obsoleta sobre este asunto.]:
 
 #align(center, image(
     "assets/media/image2.png",
@@ -25,10 +27,10 @@ En el desarrollo de _software_ el cambio está siendo especialmente disruptivo, 
     alt: "Igor Babushkin: Opus 4.5 es muy bueno. – Andrew Karpathy: Es muy bueno. La gente que no se ha mantenido informada incluso en los últimos 30 días ya tiene una visión obsoleta sobre este asunto.",
 ))
 
-El cambio es tan rápido que genera resistencia incluso entre profesionales que ya usan IA, unida al temor de que sus habilidades pierdan valor. El desarrollo de _software_ es el campo paradigmático de este cambio acelerado y la reacción. Es el campo donde los efectos están siendo más evidentes y dónde es más patente el cuestionamiento del conjunto de habilidades que hasta ahora han definido a los profesionales de un sector#footnote[
-    *Andrey Petrov* `@shazow` 27 de diciembre (de 2025): ¿Crees que estas habilidades son sustanciales y transferibles al futuro? ¿Tiene alguien que empezó hace 1-2 años una ventaja sobre alguien que empezó hace un mes? ¿Serán útiles las lecciones de hoy dentro de 1-2 años? Siento que el factor de \"perderse algo\" sigue siendo bastante bajo.
+El cambio es tan rápido que genera resistencia incluso entre profesionales que ya usan IA, que temen que sus habilidades pierdan valor. El desarrollo de _software_ es el campo paradigmático de este cambio acelerado, donde los efectos están siendo más evidentes y dónde es más patente el cuestionamiento del conjunto de habilidades que hasta ahora han definido a los profesionales de un sector#footnote[
+    *Andrey Petrov* `@shazow`, 27 de diciembre (de 2025): ¿Crees que estas habilidades son sustanciales y transferibles al futuro? ¿Tiene alguien que empezó hace 1-2 años una ventaja sobre alguien que empezó hace un mes? ¿Serán útiles las lecciones de hoy dentro de 1-2 años? Siento que el factor "perderse algo" sigue siendo bastante bajo.
 
-    *Andrej Karpathy* `@karpathy` 27 de diciembre (de 2025): Muy buenas preguntas, en mi opinión, los desarrolladores experimentados tienen una ventaja real pero solo si progresan rápidamente a través de su ciclo de duelo y se adaptan, ahora y en adelante. Rechazar categóricamente o ignorar la nueva capa sería un error.
+    *Andrej Karpathy* `@karpathy`, 27 de diciembre (de 2025): Muy buenas preguntas, en mi opinión, los desarrolladores experimentados tienen una ventaja real pero solo si progresan rápidamente a través de su ciclo de duelo y se adaptan, ahora y en adelante. Rechazar categóricamente o ignorar la nueva capa sería un error.
 ]:
 
 #align(center, image(
@@ -37,13 +39,34 @@ El cambio es tan rápido que genera resistencia incluso entre profesionales que 
     alt: "Andrey Petrov: Do you feel these skills are substantial and transferrable to the future? Does someone who started 1-2 years ago have an advantage over someone who started a month ago? Will lessons today be useful 1-2 years ago? I feel like the \"missing out\" factor is still quite low. — Andrej Karpathy: Very good questions imo experienced devs have a real advantage but only if they rapidly progress through their grief cycle and adapt, now and onwards. Categorically rejecting or ignoring the new layer would be a mistake.",
 ))
 
-La IA ha pasado de autocompletador inteligente a agente capaz de desarrollar aplicaciones completas. Claude Code marcó esta transición, seguido por OpenAI (Codex CLI) y Google (Gemini CLI). Estas herramientas han revolucionado la ingeniería del software pero, sobre todo, han hecho realidad la aplicación de de agentes a tareas concretas (programación) y más generales. Es previsible que se extienda su uso a puestos de administración y gestión mediante:
-- agentes especializados con extensiones GUI (MCP, conectores a servicios),
-- modos que permiten acceso al sistema de ficheros y navegador (como Cowork de Anthropic).
+La IA ha pasado de autocompletador inteligente a agente capaz de desarrollar, testear, mantener y desplegar aplicaciones completas en poco más de un año. Anthropic marcó esta transición con Claude Code y fue seguido por OpenAI (Codex CLI) y Google (Gemini CLI). Estas herramientas han revolucionado la ingeniería del _software_ y han permitido percibir como real la potencialidad de la IA como agentes para otros campos de actividad.
 
-Aunque presentan distinto grado de madurez según el campo de aplicación, los agentes van a transformar la forma en que se trabaja en muchos ámbitos profesionales en un plazo mucho más breve del que se podía anticipar hace solo unos meses. El desarrollo de software lleva la delantera porque forma parte del flujo de trabajo de quienes están creando las IA, pero estos avances se transferirán al resto de dominios en un plazo no muy largo.
+Los agentes van a transformar la forma en que se trabaja en muchos ámbitos profesionales en un plazo mucho más breve del que se podía anticipar hace solo unos meses. El desarrollo de _software_ lleva la delantera porque quien crean las IA y sus herramientas son desarrolladores de _software_.
 
-Enfrentamos una situación cambiante, que requiere una adaptación continua que dificulta la planificación estratégica, pero la peor estrategia es no hacer nada y no apostar siquiera por esa adaptación continua.
+Enfrentamos una situación cambiante, que requiere una adaptación continua. Esto dificulta la planificación estratégica, pero la peor estrategia es no hacer nada y no apostar siquiera por esa adaptación continua.
+
+== La capa de innovación
+
+Para favorecer el despliegue de la IA en la gestión debería definirse y dedicar recursos a una capa de innovación que, a partir de las necesidades definidas por el equipo de detección y priorización de necesidades de usuarios
+- desarrollen pruebas de concepto,
+- hagan pruebas con usuarios seleccionados
+- y las eleven a pruebas piloto con grupo ampliados de usuarios seleccionados
+- y, en su caso, pasar finalmente a desarrollo para explotación.
+
+Favorecer esta capa de innovación y de ensayo de agentes que faciliten en análisis o la gestión es muy relevante para evaluar la viabilidad y permitir la maduración de los proyectos.
+Los recursos asignados (propios o externos a través de contratos específicos para proyectos o mediante un lote de la cartera de proyectos) deberían permitir desarrollar un número suficiente de proyectos.
+
+El reciente estudio "#link("https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf")[The GenAI Divide: State of AI in Business 2025]", elaborado por investigadores del MIT (Massachusetts Institute of Technology) concluye que el 95~% de los proyectos piloto de IAG en las empresas no  generan un impacto financiero medible o un retorno de inversión (ROI) positivo.
+
+El detalle del embudo es el siguiente: el 60~% de las empresas evalúan herramientas de IA, solo el (20~%) llega a la fase de prueba o prototipo y únicamente el 5~% de los proyectos logran integrarse con éxito en los flujos de trabajo reales y generar valor económico. Según el informe, el problema no suele ser la tecnología (los modelos recientes aludidos con anterioridad son potentes), sino las barreras estructurales:
+
+- *Brechas de integración* o dificultades para conectar la IA con los procesos de negocio existentes.
+- *Excesiva expectativa* para procesos en los que se pretende una delegación de funciones en la IA, cuando debiera ser definida como un mero asistente.
+- *Barreras de coste* en los desarrollos y *falta de objetivos claros*: Gartner señala que el 30~% de los proyectos se abandonan después de la "prueba de concepto" por mala calidad de los datos, costos crecientes o falta de un valor de negocio claro.
+
+A pesar del alto índice de "fracaso" corporativo, el uso individual es masivo: los empleados suelen usar IA por su cuenta (_shadow AI_) para tareas sencillas como redactar correos (70~% de adopción).
+
+Disponer, por tanto, de un recursos y de un método para el desarrollo de pruebas de concepto y de demostradores que puedan transformarse en pruebas piloto va a favorecer la tasa de éxito de los proyectos y la penetración de la tecnología. Y va a evitar que los “fracasos” que se produzcan, consuman costosos recursos que deberían destinarse a otros desarrollos relevantes.
 
 En este documento no abordamos el impacto de la IAG en la docencia e investigación del profesorado y nos centramos en la gestión universitaria. El documento se estructura en varios bloques. En un primer bloque se efectúa un análisis de las herramientas y las necesidades:
 
@@ -59,9 +82,12 @@ En un segundo bloque se recogen los principales objetivos y acciones a realizar 
 = Análisis de herramientas y necesidades <sec:herramientas-necesidades>
 
 == Modelos y ecosistemas
-La evolución de los modelos grandes de lenguaje (LLM, por el inglés _Large Language Models_) que constituyen el estado del arte (SOTA, por el inglés _State of the Art_) es muy rápida. La validez de este análisis probablemente sea baja o nula en un plazo de tiempo corto si ponemos el foco en los modelos existentes y sus posibilidades. Es un análisis en el que
-- no importa tanto quién ostenta posiciones dominantes hoy como el hecho de que hay diferencias notables entre los LLM que encabezan los _rankings_ y el resto,
-- los precios se estructuran de modos similares en los modelos comerciales, con precios similares en las suscripciones y mayor variabilidad en el pago por uso.
+
+Los _Large Language Models_ (LLM) son la base de la IAG. Estos modelos se entrenan con grandes volúmenes de datos textuales y aprenden a predecir la siguiente palabra en una secuencia, lo que les permite generar texto coherente y relevante en función del contexto proporcionado. Los modelos fundacionales solo completan texto, por lo que se usan modelos con entrenamientos especiales que les hacen presentar comportamientos específicos (_instruct models_, _chat models_, _reasoning models_, _agentic models_...). Los modelos fundacionales tarden meses en entrenarse, pero la oferta es muchos más dinámica por la aparición de modelos especializados que se entrenan a partir de los fundacionales y que pueden estar disponibles en semanas. Por tanto, la evolución de los modelos IAG que configuran el estado del arte (SOTA, por el inglés _State of the Art_) es muy rápida.
+
+En consecuencia, la validez del detalle de este análisis probablemente sea baja o nula en un plazo de tiempo corto. No obstante,
+- no importa tanto quién ostenta posiciones dominantes hoy como el hecho de que hay diferencias notables entre los modelos que encabezan los _rankings_ y el resto,
+- los precios se estructuran de modos similares en los modelos comerciales y las decisiones basadas en costes seguirán principios similares a los que se definen hoy.
 
 A 14 de enero de 2025, hay cuatro grandes creadores de modelos privativos SOTA y, para cada uno de ellos, un modelo que destaca por sus prestaciones:
 
@@ -140,7 +166,7 @@ En esta tabla se resume el _ranking_ a fecha 8/1/2026 según LMArena, un _benchm
             set text(size: .9em)
             table(
                 columns: (auto, auto, auto, auto),
-                align: (left, left, left, left, right),
+                align: (left, left, left, center),
                 stroke: none,
                 table.header(
                     table.hline(),
@@ -165,9 +191,9 @@ En esta tabla se resume el _ranking_ a fecha 8/1/2026 según LMArena, un _benchm
 
 Los modelos abiertos se descargan de #link("http://huggingface.co")[`http://huggingface.co`] y, en principio, pueden ejecutarse con infraestructura propia. No obstante, los elevados requerimientos computacionales de los modelos abiertos de mayores prestaciones y la necesidad de contar con personal formado en su despliegue y explotación hacen que la mejor opción sea contratarlos como SaaS (#link("http://huggingface.co")[HuggingFace], #link("https://openrouter.ai/")[OpenRouter], #link("https://azure.microsoft.com/en-us/solutions/ai")[Microsoft Azure]...).
 
-Del exanen de la tabla se puede extraer la conclusión de que la posición de liderazgo siempre la ocupa un modelo privativo. No obstante,
+Del examen de la tabla se puede extraer la conclusión de que la posición de liderazgo siempre la ocupa un modelo privativo. No obstante,
 + los _ranking_ son muy dinámicos y esta situación puede cambiar,
-+ el _ranking_ no es más que un posicionamiento relativo y las familias de modelos que hoy están detrás puede ofrecer, en pocos meses, prestaciones similares a los que ocupan ahora la primera posición.
++ un _ranking_ no es más que un posicionamiento relativo y las familias de modelos que hoy están detrás puede ofrecer, en pocos meses, prestaciones similares a los que ocupan ahora la primera posición.
 
 Aunque se puede dar el vuelco que señalamos en el primer punto, no se ha observado en los últimos meses. Por otra parte, cuando un modelo haya evolucionado hasta ser comparable con los modelos frontera actuales,  también lo habrán hecho estos, por lo que cabe esperar que se mantenga una diferencia notable entre los modelos SOTA privativos y los abiertos.
 
@@ -175,9 +201,11 @@ La diferencia entre usar uno de los mejores modelos y los que van unos meses por
 
 Hoy por hoy, los modelos de elección son Gemini 3.0 Pro de Google, Claude Opus 4.5 de Anthropic y ChatGPT 5.2 de OpenAI Pero no solo ha de preocupar el acceso a los modelos, sino también el ecosistema de herramientas e integraciones que facilita cada proveedor.
 
-Por ejemplo, la UJI ha suscrito recientemente un contrato con Google Cloud que permite  utilizar servicios tecnológicos para el despliegue de agentes (Vertex AI Studio). La contratación con Google da acceso a herramientas que otros proveedores no ofrecen, como NotebookLM. Del mismo modo hay herramientas que ofrece Anthropic y no Google u OpenAI, como Claude Cowork.
+La contratación de los modelos es compleja, tanto por la variedad de productos, las modalidades de contratación (suscripción, pago por uso) y por las dificultades que introduce la contratación pública. El Anexo~@ap:contratación recoge un análisis de las modalidades de contratación y los aspectos a tener en cuenta.
 
-No solo han de tener en cuenta las herramientas que complementan a los modelos extendiendo su funcionalidad, sino también de la integración con el ecosistema de aplicaciones de productividad (Google Workspace for Education, Microsoft 365...).
+La UJI ha suscrito recientemente un contrato con Google Cloud que permite  utilizar servicios tecnológicos para el despliegue de agentes (Vertex AI Studio). La contratación con Google da acceso a herramientas que otros proveedores no ofrecen, como NotebookLM. Del mismo modo hay herramientas que ofrece Anthropic y no Google u OpenAI, como Claude Cowork. Y en áreas específicas puede haber proveedores con productos más avanzados (como Claude Code con Opus 4.5 para el desarrollo de _software_)
+
+Para complicar más el escenario, hay productos que integran IAG y tiene precios y condiciones de uso diferentes a las de los modelos que utilizan. Un ejemplo es Microsoft 365 Copilot, que integra modelos de OpenAI pero tiene una política de precios y condiciones de uso propias.
 
 Teniendo en cuenta la potencia de los modelos de Google y la utilización de su ecosistema para la gestión en la UJI mediante _Google Workspace for Education_, se debería realizar un proyecto piloto de despliegue de un agente informador mediante Vertex para analizar la viabilidad de su utilización en futuros despliegues.
 
@@ -220,86 +248,81 @@ Existe un grupo de trabajo para la mejora de la fiabilidad y el acceso a la info
 
 == Las necesidades de los usuarios <sec:necesidades>
 
-Cualquier despliegue de servicios tecnológicos debe efectuarse desde la perspectiva de los usuarios y sus necesidades. En este caso es especialmente relevante porque la utilización de IA implica un cambio de paradigma radical, lo que puede entrañar la necesidad de un reaprendizaje sobre cómo se interactúa con las herramientas de gestión.
+Cualquier despliegue de servicios tecnológicos debe efectuarse desde la perspectiva de los usuarios y sus necesidades. En este caso es especialmente relevante porque la utilización de IA implica un cambio de paradigma y entraña un reaprendizaje de las herramientas de gestión y de cómo se interactúa con ellas.
 
-Por usuarios debemos entender a cualquier persona que se relaciona con la universidad. Pueden ser terceros que demanden información de los servicios o que se relacionen con la universidad en relaciones comerciales aunque la comunidad universitaria integrada por estudiantes, PTGAS, PDI y PI, que están recogidos en los otros grupos que se identifican a continuación.
+Por usuarios debemos entender a cualquier persona que se relaciona con la universidad. Los diferentes colectivos presentan perfiles muy diversos:
+- público externo (terceros que demandan información o servicios a la universidad),
+- estudiantes de grado y máster y doctorandos
+- personal docente e investigador (PDI y PI), incluyendo personal investigador en formación (PIF),
+- personal de técnico, de gestión y de administración y servicios (PTGAS) y personal técnico vinculado a la investigación (PTA),
+- y, dentro de los dos últimos grupos, cuadros directivos (cargos académicos o administrativos).
 
-La atención a las necesidades y la experiencia del usuario resulta imprescindible. El despliegue de la IA no debe preocuparse, exclusivamente, en la capacidad de procesamiento, sino que debe priorizar la confiabilidad y la adopción no disruptiva. Algún proyecto piloto desarrollado ha permitido constatar que es necesario que que las soluciones que se desplieguen integren:
+La atención a las necesidades y la experiencia del usuario resulta imprescindible para el despliegue de la IA. Es prioritario tomar en consideración la confiabilidad de los modelos y una adopción no disruptiva. La experiencia adquirida en un proyecto piloto ha permitido constatar que es necesario que las soluciones integren:
 
-- Fase de *detección de necesidades*. Por evidentes limitaciones de recursos no se pueden abordar todos los proyectos al mismo tiempo y es necesario priorizar. La ordenación de los proyectos debe tener en cuenta las necesidades de los usuarios finales.
+- *Detección de necesidades*. La limitación de recursos impide abordar todos los proyectos al mismo tiempo y es necesario priorizar atendiendo a las necesidades de los usuarios finales.
 
-    Si se pregunta a cada usuario a título individual, cada uno de ellos puede tener la percepción de que sus necesidades son las más relevantes, pero el análisis debería tener también en cuenta el número global de usuarios a los que se da respuesta con cada proyecto. Por otra parte, muchos usuarios no saben qué esperar de la tecnología y eso condiciona la expresión de esa necesidades
+    Cada usuario, a título individual, tiene la percepción de que sus necesidades son las más relevantes, pero ha de tenerse en cuenta el número global de usuarios a los que se da respuesta con cada proyecto y el retorno esperado de cada uno de ellos. Por otra parte, muchos usuarios no saben qué esperar de esta tecnología y eso condiciona la expresión de esa necesidades si no hay un liderazgo que oriente el proceso.
 
-    Es necesario definir una metodología y unos responsables para esta identificación de las necesidades. En esta fase de detección de las necesidades deberían participar representantes significativos de los colectivos de usuarios, con la supervisión de personas que conozcan la potencialidad y limitaciones de las nuevas herramientas.
+    Es necesario definir una metodología y unos responsables para identificar las necesidades. En esta fase deben participar representantes significativos de los colectivos de usuarios bajo la supervisión de quienes conocen mejor la potencialidad y limitaciones de las nuevas herramientas.
 
-- *Transparencia activa*: Los sistemas que se desplieguen deben proporcionar referencias explícitas a las fuentes de datos institucionales, permitiendo al usuario validar la información en todo momento.
+- *Transparencia activa, retroalimentación y validación*: Los usuarios han de entender que los agentes son asistentes en su trabajo y multiplican su productividad, pero no les sustituyen. Los sistemas deben proporcionar referencias explícitas a las fuentes de datos institucionales, permitiendo al usuario validar la información en todo momento.
 
-    El factor no determinista del comportamiento de los modelos y la probabilidad de que fabrique datos obliga a que la información proveniente de la base de datos sea fácilmente contrastable y validable efectivamente, tanto en su origen como en los cambios que se propongan.
+    El factor no determinista del comportamiento de los modelos y la probabilidad de que fabrique datos obliga a que la información proveniente de la base de datos sea fácilmente contrastable y validable efectivamente, tanto en su origen como en los cambios que la IA proponga (registros creados tras el procesamiento, propuesta de eliminación de datos...).  Se deben introducir capas de retroalimentación en la interacción con el agente, de modo que se pueda refinar su comportamiento y validar que la información que manejan es correcta. La responsabilidad sobre los resultados es del usuario, por lo que este debe disponer de herramientas que le permitan validar el trabajo realizado por el agente con seguridad y facilidad.
 
 - *Interfaz de baja fricción*: El uso de modelos multimodales permite una interacción por diferentes medios en la entrada (capturas de pantalla, techado, audio...), facilitando una interacción más natural y accesible.
 
-    El usuario está acostumbrado a la interacción con aplicaciones web y, en el caso de algunos puestos de trabajo, con Forms de Oracle. El salto del modelo convencional al que posibilitan los modelos multimodales no es trivial y requiere poner la usabilidad en el foco de los desarrollos.
+    El usuario está acostumbrado a la interacción con aplicaciones _web_ y, en algunos casos, con Forms de Oracle. El salto a un uso de modelos multimodales no es trivial y requiere, aún más, centrar el foco en  la usabilidad. La experiencia de usuario es crucial: se han de evitar interfaces complejos y se han de favorecer la integración de la IA en entorno de trabajo habituales, reduciendo tanto como se pueda la barrera adicional de aprender un nuevo entorno.
 
-    La integración de IA ha de cuidar la experiencia de usuario, evitando interfaces complejos y favoreciendo la integración en los flujos de trabajo habituales, de modo que la adopción de las nuevas herramientas no suponga una barrera adicional por la dificultad de aprender un nuevo entorno.
+- *Compartición de artefactos*. El uso de la IA genera un conjunto de artefactos que debe ser reutilizados por otros usuarios para un máximo aprovechamiento.
 
-- La importancia de *la retroalimentación y validación*. Es necesario formar adecuadamente a los usuarios para que entiendan que los agentes son asistentes que les ayudan en el trabajo y multiplican su productividad, pero no les sustituyen.
+    Por ejemplo, los modelos especializan su comportamiento mediante _prompts_ (descripciones textuales) que se almacenan en ficheros de texto. Estos ficheros deben ser fácilmente compartibles por los usuarios de un mismo servicio, de modo que se homogeneice el comportamiento del modelo y se evite la repetición de esfuerzos.
 
-    Se deben introducir capas de retroalimentación donde los usuarios puedan interactuar  con el agente, refinar su comportamiento y validar que la información que están manejando o procesando es correcta.
+    Otro ejemplo son los _scripts_ que genera la IA para efectuar procesamientos de información local (con datos que pueden provenir de explotaciones de la información institucional). Estos _scripts_ deben ser almacenados en repositorios comunes para que puedan ser reutilizados y adaptados por otros usuarios.
 
-    Si la responsabilidad sobre el resultado de cada proceso es del usuario, este debe disponer de herramientas que le permitan validar el trabajo realizado por el agente con seguridad y facilidad.
-
-- Compartición de *configuraciones*. Los modelos se adaptan a las especificades de cada función o servicio a través de diferentes _prompts_ que se pueden almacenar en ficheros de texto. Estos ficheros deben ser fácilmente compartibles por los usuarios de un mismo servicio, de modo que se homogeneice el comportamiento del modelo y se evite la repetición de esfuerzos.
-
-    Hay muchas lecciones aprendidas en la ingeniería de software que ahora deben extenderse a colectivos más amplios:  acceso a repositorios con control de versiones, por ejemplo, o a la prueba sistemática de los desarrollos con baterías de test.
+    Hay muchas prácticas de la ingeniería de _software_ que deben extenderse a colectivos más amplios:  el acceso a repositorios con control de versiones, por ejemplo, o la prueba sistemática de desarrollos con baterías de test. Los interfaces de estas herramientas son complejos, por lo que debe formarse a los usuarios que las necesiten para que puedan hacer uso, al manos, a un nivel elemental.
 
 == Tipologías de usuarios
 
-Los usuarios se pueden dividir en función del colectivo al que pertenecen:
-- público externo (terceros que demandan información o servicios a la universidad),
-- estudiantes de grado y máster,
-- doctorandos y personal en formación,
-- personal docente e investigador (PDI y PI),
-- personal de administración y servicios (PTGAS),
-- cuadros directivos.
-
-También se puede en función del perfil profesional y del tipo de tareas que realizan. Estas pueden singulares de la unidad a la que pertenecen. Hay unidades singulares, con un papel definido en la universidad y que provee servicios no administrativos, que suelen corresponderse:
-- con el desempeño de una profesión u oficio (traducción y revisión lingüística, producción audiovisual, comunicación...),
-- con especialidades de la actividad universitaria (aseguramiento de la calidad, gestión de estudios...),
-- con tareas propias de la organización (de recursos humanos, planificación estratégica, aseguramiento de la calidad, control interno, igualdad...),
-- con el mantenimiento y desarrollo de infraestructuras (tecnológicas, de instalaciones y edificios...),
-- con la organización y ejecución de actividades de extensión universitaria (actividades deportivas, culturales, etcétera),
-- con la atención al público (orientación profesional, información general),
-- ...
-
-Todas estas divisiones son relevantes a la hora de considerar el papel que la IA jugará en su relación con la universidad o en el desempeño de sus funciones, y para cada uno de ellos se puede hacer un análisis específico.
-
-Ahora estamos interesados, sin embargo, en una agrupación de puestos por la potencialidad que el uso de la IA tiene en la mejora de la eficiencia y eficacia en la realización de sus tareas, así como por la expectativa de adopción de estas tecnologías.
+Cuando centramos el análisis en la gestión, los usuarios pueden clasificarse según su perfil profesional y el tipo de tareas que realizan. Estas pueden propias de la unidad a la que pertenecen o transversales. Ahora estamos interesados en una agrupación de puestos por la potencialidad que el uso de la IA tiene en la mejora de la eficiencia y eficacia en la realización de sus tareas en un sentido transversal, así como por la expectativa de adopción de nuevas tecnologías.
 
 Por sus distintas necesidades vamos a diferenciar entre varios grupos, dentro de los cuales haremos las divisiones que estimemos pertinentes.
 
 === Grupo 1: Puestos de trabajo con funciones no administrativas <sec:grupo-específico>
 
-Dentro del PTGAS hay perfiles específicos, que no están relacionados con la administración o solo lo están tangencialmente y que se corresponden con el ejercicio de profesiones y oficios. Son de interés, por las especiales necesidades que pueden tener en cuanto a sus herramientas de gestión, algunos de estos perfiles como:
+Hay unidades singulares que proveen a la universidad de servicios no administrativos que se corresponden:
+- con el desempeño de una profesión u oficio (traducción y revisión lingüística, producción audiovisual, comunicación...),
+- con tareas propias de la organización (de recursos humanos, planificación estratégica, aseguramiento de la calidad, control interno, cumplimiento de políticas de igualdad...),
+- con especialidades propias de la actividad universitaria (gestión de estudios, gestión de la investigación...),
+- con el mantenimiento y desarrollo de infraestructuras (tecnológicas, de instalaciones y edificios...),
+- con la organización y ejecución de actividades de extensión universitaria (actividades deportivas, culturales, etcétera),
+- con la atención al público (orientación profesional, información general),
+- ...
 
-- Traductores y revisores de textos (SLT).
-- Diseñadores gráficos (SCP).
+Para cada una de ellas se puede y debe hacer un análisis específico, pues las necesidades y prioridades son distintas. Muchas de estas unidades incluyen puestos de trabajo cuyos perfiles se corresponden con profesiones u oficios, muchos de los cuales están sufriendo o sufrirán en breve un proceso de transformación por la adopción de IAG:
+
+- Traductores y revisores de textos (Servei de Llengües i Terminologia, SLT).
+- Diseñadores gráficos (Servei de Comunicació i Publicacions, SCP).
 - Editores de vídeo (SCP).
 - Periodistas (SCP).
 - Gestores de redes sociales (SCP).
-- Arquitectos e ingenieros (OTOP).
+- Arquitectos e ingenieros (Oficina Tècnica d'Obres i Projectes, OTOP).
 - Informadores y primera línea de atención (Infocampus, CAU).
-- Orientadores profesionales (OIPEP).
+- Orientadores profesionales (Oficina d'Inserció Professional i Estades en Pràctiques, OIPEP).
 - Otros.
 
-En relación con las necesidades particulares de estos perfiles, existen herramientas de nicho orientadas a resolver problemas muy específicos de cada actividad que pueden resultar útiles y adecuadas. Muchas de las herramientas tradicionales están sufriendo procesos de transformación mediante la integración de IA generativa.
+Existen herramientas para problemas específicos de cada actividad. Muchas de las tradicionales están integrando la IAG mediante extensiones/evoluciones y otras, que tienen a la IAG en su núcleo, se están definiendo e implantado ahora.
 
-La traducción y revisión de textos, por ejemplo, es una de las áreas en las que software ha integrado modelos de lenguaje con mayor rapidez (lo que es natural dado que el material con el que se trabaja es el lenguaje). El diseño gráfico está experimentando ya el impacto de la IA generativa y campos como la edición de vídeo y audio se beneficiarán de nuevas herramientas en un plazo breve, bien mediante extensiones del software tradicional (limpieza de la imagen, transiciones dinámicas de vídeo, selección de fragmentos relevantes...), bien mediante la aparición de herramientas que transformen lenguaje natural en acciones de edición (montaje automático del vídeo o audio a partir de los materiales en bruto). Habrá que estar atentos a la aparición de estas herramientas en tanto son multiplicadoras de la eficiencia de los recursos humanos existentes y, hoy por hoy, hacer desarrollos propios en esas áreas no es prioritario.
+La traducción y revisión de textos, por ejemplo, es una de las áreas en las que software ha integrado modelos de lenguaje con mayor rapidez (lo que es natural). Parte de la demanda de servicios de revisión y traducción ahora se acomete en autoservicio por parte de los usuarios (usando interfaces de _chat_ o agentes) y la que sigue encargándose al SLT, puede atenderse con un mayor grado de automatización. La IA puede ayudar en la traducción automática inicial y en la revisión de textos, dejando al profesional la tarea de supervisión y corrección final. Esto permite aumentar la productividad y reducir los tiempos de entrega. Productos como DeepL o Amazon Translate ofrecen servicios de traducción automática de alta calidad que pueden integrarse en los flujos de trabajo del SLT.
 
-Esto no significa que no sea necesario hacer desarrollos específicos en algunos ámbitos. Por poner un ejemplo, una adecuada información a los usuarios requiere que los agentes tengan acceso a la información institucional y que ésta sea la adecuada (por temática, por vigencia...). Estos desarrollos propios no tienen por qué facilitar una solución completa: posiblemente se integrarán en soluciones informáticas que se ofrecen ya al mercado. Es decir, la interacción propia de un bot de texto o de interacción oral ya está desarrollada y se puede contratar a terceros (no tiene sentido reinventar la rueda), pero la selección y preparación de la información que alimenta a estos frontales de usuario puede requerir desarrollos propios.
+Encontramos otro ejemplo en el diseño gráfico, que está experimentando ya el impacto de la IAG. La edición de contenido gráfico mediante interfaces de texto (DALL·E, Midjourney, Stable Diffusion...) permite generar imágenes a partir de descripciones textuales. Los diseñadores gráficos pueden utilizar estas herramientas para crear borradores iniciales, explorar ideas creativas y acelerar el proceso de diseño. La IA puede ayudar en la generación de conceptos visuales, permitiendo a los diseñadores centrarse en la refinación y personalización de los diseños.
 
-Lo ideal sería que la iniciativa de adoptar la IA partiera de los miembros de estos colectivos. Son quienes mejor conocen su campo de actividad y quienes pueden valorar la adecuación de las herramientas para el tipo de funciones que desempeñan.
+También en la edición de vídeo y audio están apareciendo nuevas herramientas (Captions, VEED, Submagic, OpusClip). Alguna son meras extensiones del software tradicional (limpieza de la imagen, transiciones dinámicas de vídeo, selección de fragmentos relevantes...) y otras hacen de la IAG su nucleo: generar recursos de vídeo a partir de imágenes,  usan lenguaje natural para acciones de edición, hacen un montaje automático del vídeo o audio a partir de los materiales en bruto...
 
-En los casos en los que no se aprecie esa iniciativa, se deberá apostar, en primer lugar, por la formación especializada y, cuando sea necesario, por acciones de consultoría  que permitan identificar las herramientas más adecuadas y planificar su despliegue.
+Habrá que estar atentos a la aparición de estas herramientas en tanto son multiplicadoras de la eficiencia de los recursos humanos existentes y, hoy por hoy, hacer desarrollos propios en esas áreas no es prioritario.
+
+Esto no significa que no sea necesario hacer desarrollos específicos en algunos ámbitos. Por poner un ejemplo, una adecuada información a los usuarios requiere que los agentes tengan acceso a la información institucional y que ésta sea adecuada (por temática, por vigencia, por público destinatario...). Estos desarrollos propios no tienen por qué constituir soluciones completas: posiblemente se integrarán en soluciones informáticas que se ofrecen ya al mercado. Es decir, la interacción propia de un bot de texto o de interacción oral puede ser un producto de mercado contratado a terceros, pero la selección y preparación de la información que alimenta a estos productos puede requerir desarrollos propios.
+
+Lo ideal sería que la iniciativa de adoptar la IA partiera de los miembros de estos colectivos. Son quienes mejor conocen sus respectivos campos de actividad y quienes pueden valorar la adecuación de las herramientas para el tipo de funciones que desempeñan. En los casos en los que no se dé la iniciativa, se deberá apostar, en primer lugar, por una formación especializada y, cuando sea necesario, por acciones de consultoría  que permitan identificar las herramientas más adecuadas y planificar su despliegue.
 
 === Grupo 2: Gestores <sec:grupo-gestores>
 
@@ -309,7 +332,7 @@ En relación con las necesidades de gestión de carácter general, en una primer
 
 Otro frente de uso de herramientas IA se dará a través de la integración de esta en las herramientas que facilita la universidad. Si, por ejemplo, se integra un asistente en el gestor de compras menores o un validador de estilo en ciertos campos, los usuarios interactuarán con la IA a través de esa herramienta. La formación necesaria es menor para este tipo de usos si he tenido en cuenta la experiencia de usuario y la usabilidad en el diseño de las integraciones.
 
-=== Grupo 3: analistas de datos y usuarios avanzados <sec:grupo-analistas-de-datos-y-usuarios-avanzados>
+=== Grupo 3: Analistas de datos y usuarios avanzados <sec:grupo-analistas-de-datos-y-usuarios-avanzados>
 
 Los analistas de datos y otros usuarios avanzados (por ejemplos, determinados directivos, como jefes de servicio que realizan tareas de análisis y _reporting_ que requiere habilidades de análisis de datos) deben ser tratados como un perfil especial porque tienen necesidades particulares de acceso a la información y disponen de habilidades técnicas para tratarla y, también, para generar conocimiento institucional que debe poder ser compartido de forma eficiente.
 
@@ -321,7 +344,7 @@ Han de tener una formación que permita asegurar la confidencialidad de la infor
 
 También es necesario que se utilice una arquitectura de código limpio en la que esté totalmente desacoplada la capa de presentación de la capa de lógica. Los scripts de procesamiento de la información deberían ser “cajas negras” que recibe datos y devuelve resultados, que pudieran ser ejecutados de forma independiente a la herramienta que se utilice para la interacción y visualización en la fase de prototipado. De este modo se facilita el prototipado, el escalado a las fases de piloto y producción y la traducción a otros lenguajes de programación. Y también se permite que se pueda compartir el conocimiento que se está generando (aplicaciones de análisis, consultas, informes, dashboards, scripts ETL, etc. ).
 
-=== Grupo 4: desarrolladores <sec:grupo-desarrolladores>
+=== Grupo 4: Desarrolladores <sec:grupo-desarrolladores>
 
 En cuarto lugar se encuentran los desarrolladores de software, que están todos adscritos a la UADTI.
 
@@ -333,23 +356,7 @@ Por último, son quienes van a desarrollar y mantener las aplicaciones propias q
 
 En las instituciones el equipo de desarrollo tiene una presión operativa por mantener las aplicaciones en funcionamiento, adaptarlas y efectuar nuevos desarrollos de otro tipo que puede afectar a los recursos disponibles para desarrollo de proyectos de innovación y a la decisión de los proyectos de innovación que se acometen.
 
-==== Capa de innovación y pruebas de concepto <sec:capa-de-innovación-y-pruebas-de-concepto>
 
-#text(fill: red)[Llevar esto a otro apartado de gobernanza y procesos. Tiene material bueno para la intro.]
-
-Para favorecer el despliegue de la IA en la gestión debería definirse y dedicar recursos a una capa de innovación, que a partir de las necesidades definidas por el grupo de detección y priorización de necesidades de usuarios desarrollen pruebas de concepto, las prueben con usuarios seleccionados y en su caso, las eleven a pruebas piloto a probar, de nuevo con un grupo mayor de usuarios seleccionados para, en su caso, pasar finalmente a desarrollo para explotación. Los recursos asignados (propios o externos a través de contratos específicos para proyectos o mediante un lote de la cartera de proyectos) deberían permitir desarrollar un número suficiente de proyectos.
-
-Favorecer esta capa de innovación y de ensayo de agentes que faciliten en análisis o la gestión es muy relevante para ensayar la viabilidad y permitir la maduración de los proyectos. El reciente estudio #link("https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf")["The GenAI Divide: State of AI in Business 2025"], elaborado por investigadores del MIT (Massachusetts Institute of Technology), ha llegado a la conclusión de que el 95~% de los proyectos piloto de inteligencia artificial generativa en las empresas no logran generar un impacto financiero medible o un retorno de inversión (ROI) positivo.
-
-El detalle del embudo es el siguiente. El 60~% de las empresas evalúan herramientas de IA. Solo el (20~%) llega a la fase de prueba o prototipo. Únicamente el 5~% de los proyectos iniciales logran integrarse con éxito en los flujos de trabajo reales y generar valor económico.
-
-Según el informe, el problema no suele ser la tecnología en sí (los modelos recientes aludidos con anterioridad son potentes), sino las barreras estructurales:
-
-Existen brecha de integración, o dificultades para conectar la IA con los procesos de negocio existentes. También una excesiva expectativa para procesos en los que se pretende una delegación de funciones en la IA, cuando debiera ser definida como un mero asistente. También existen barreras de coste en los desarrollos y falta de objetivos claros: Gartner señala que el 30~% de los proyectos se abandonan después de la "Prueba de Concepto" debido a la mala calidad de los datos, costos crecientes o falta de un valor de negocio claro.
-
-A pesar de este alto índice de "fracaso" corporativo, el uso individual es masivo: los empleados suelen usar IA por su cuenta (_shadow AI_) para tareas sencillas como redactar correos (70~% de adopción).
-
-Disponer, por tanto, de un recursos y de un método para el desarrollo de pruebas de concepto y de demostradores que puedan transformarse en pruebas piloto va a favorecer la tasa de éxito de los proyectos y la penetración de la tecnología. Y va a evitar que los “fracasos” que se produzcan, consuman costosos recursos que deberían destinarse a otros desarrollos relevantes.
 
 == Perfiles de uso de la IA <sec:usos-de-la-ia>
 
@@ -559,7 +566,9 @@ Planificación del despliegue de IA (2 años desde la aprobación del plan)
 #pagebreak()
 
 #appendix[
-    = Contratación de los modelos y herramientas relacionadas <sec:contratación>
+    = Contratación de los modelos y herramientas relacionadas <ap:contratación>
+
+    == Estado del mercado
 
     Hay varias modalidades de uso de los modelos privativos y/o abiertos y cada unos comporta unos costes directos o indirectos.
 
@@ -657,12 +666,12 @@ Planificación del despliegue de IA (2 años desde la aprobación del plan)
 
     === Contratación de modalidades Pago por uso con modelos privativos. <sec:modo-pago-por-uso-con-modelos-privativos>
 
-    Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
+    Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional. Se puede sumar las prestaciones de IAG al cálculo contratado con los proveedores con los que ya se tiene contratación para servicios en la nube.
 
     === Contratación de modalidades Pago por uso con modelos abiertos.
     <sec:modo-pago-por-uso-con-modelos-abiertos>
 
-    Cuando la contratación se hace a través de uno de los proveedores incluidos en OCRE, se puede estudiar el uso de este acuerdo marco transnacional.
+    Misma situación que en el apartado anterior.
 
 
     = Notas para el desarrollo de algunas acciones <sec:anexo-1-notas-para-el-desarrollo-de-algunas-acciones>

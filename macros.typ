@@ -1,10 +1,17 @@
 #let plantilla = doc => {
     set page(numbering: "1")
-    set text(font: "Roboto", size: 10pt, lang: "es")
+    set text(font: "Roboto", size: 11pt, lang: "es")
     set par(justify: true)
     set heading(numbering: "1.1")
-
-
+    show raw.where(block: false): it => {
+        set text(font: "Roboto Mono", size: 1.2em)
+        it
+    }
+    show figure: set block(spacing: 2.5em)
+    show figure.caption: c => [
+        #text(weight: "bold", size: .9em)[#c.supplement #c.counter.display(c.numbering)#c.separator]
+        #c.body
+    ]
     show quote.where(block: true): set block(inset: (x: 1em))
 
 
