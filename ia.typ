@@ -1,4 +1,4 @@
-#import "macros.typ": appendix, plan, plantilla
+#import "macros.typ": andrés, appendix, marginalia, modesto, note, plan, plantilla, ricardo
 #show: plantilla
 
 #set title(
@@ -14,7 +14,7 @@
 
 == Un cambio disruptivo y acelerado en la gestión
 
-La Inteligencia Artificial (IA) y, en particular, la IA Generativa (IAG) va a transformar la gestión administrativa, reduciendo tareas repetitivas y aumentando la eficiencia en una integración entre tecnología y talento humano.
+La Inteligencia Artificial (IA) y, en particular, la IA Generativa (IAG) va a transformar la gestión administrativa, reduciendo tareas repetitivas y aumentando la eficiencia en una integración entre tecnología y talento humano.#andrés[Ejemplo de nota al margen. Hay macros `#ricardo[nota]` y `#modesto[nota]` para otros autores.]
 
 En el desarrollo de _software_ el cambio está siendo especialmente disruptivo y acelerado, como ilustra este tweet de Andrej Karpathy (26/12/2026)#footnote[
     *Igor Babushkin* `@ibab`, 26 de diciembre (de 2025): Opus 4.5 es muy bueno.

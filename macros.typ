@@ -1,6 +1,8 @@
+#import "@preview/marginalia:0.3.1" as marginalia: note
+
 #let plantilla = doc => {
-    set page(numbering: "1")
-    set text(font: "IBM Plex Sans", size: 11pt, lang: "es")
+    set page(numbering: "1", margin: (right: 4cm))
+    set text(font: "Arial", size: 11pt, lang: "es")
     set par(justify: true)
     set heading(numbering: "1.1")
     show raw.where(block: false): it => {
@@ -16,6 +18,16 @@
     show strong: set text(weight: 300)
     show outline.entry.where(level: 1): set outline.entry(fill: [])
     show outline.entry.where(level: 1): set text(weight: "bold")
+
+    show: marginalia.setup.with(
+        // inner: ( far: 5mm, width: 15mm, sep: 5mm ),
+        outer: (far: 5mm, width: 30mm, sep: 5mm),
+        // top: 2.5cm,
+        // bottom: 2.5cm,
+        // book: false,
+        // clearance: 12pt,
+    )
+
     doc
 }
 
@@ -66,3 +78,11 @@
     plan
 }
 #let plan = etiqueta_plan()
+#let note = note.with(
+    text-style: (font: "Arial", size: .6em),
+    par-style: (justify: false),
+    block-style: (fill: gray.lighten(90%), width: 3cm, radius: 4pt),
+)
+#let ricardo(body) = note[Ricardo: #body]
+#let modesto(body) = note[Modesto: #body]
+#let andrés(body) = note[Andrés: #body]
